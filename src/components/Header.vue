@@ -20,7 +20,7 @@
               <router-link to="/videos">Videos</router-link>
             </li>
             <li>
-              <router-link to="/testimonials">Testimonials</router-link>
+              <router-link to="/testimonial">Testimonials</router-link>
             </li>
             <li>
               <router-link to="/contact-us">Contact Us</router-link>
