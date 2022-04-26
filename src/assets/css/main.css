@@ -372,13 +372,186 @@ textarea {
   border-radius: 0;
   background: var(--btn-color);
   color: var(--white);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   cursor: pointer;
+  font-family: var(--secondary-font);
 }
 
 .contact-form .form-btn:hover {
   transform: scale(110%);
+}
+
+/* Idaho Workers Compensation Section */
+
+.idaho-row-1 {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.idaho-row-1,
+.idaho-row-2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.idaho-row-1 .idaho-btn {
+  width: 30%;
+}
+
+.idaho-row-1 .idaho-title-desc {
+  padding-left: 180px;
+  padding-right: 20px;
+  width: 70%;
+}
+
+.idaho-title-desc h2 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.idaho-title-desc p {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.idaho-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.idaho-btn button {
+  padding: 13px 17px;
+  border: 0;
+  background: var(--btn-color);
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  cursor: pointer;
+}
+
+.idaho-btn button:hover {
+  transform: scale(110%);
+}
+
+.idaho-row-2 {
+  justify-content: flex-start;
+  padding-bottom: 80px;
+}
+.idaho-img-left,
+.idaho-img-right-top,
+.idaho-img-right-bottom {
+  position: relative;
+}
+.idaho-row-2 .idaho-img-left {
+  width: 55.5%;
+}
+
+.idaho-row-2 .idaho-img-right {
+  width: 44.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+}
+.idaho-row-2 .idaho-img-left img {
+  max-width: 100%;
+}
+
+.idaho-row-2 .idaho-img-right img {
+  max-width: 100%;
+}
+
+.idaho-img-right-top-desc,
+.idaho-img-right-bottom-desc,
+.idaho-img-left-desc {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  padding: 20px;
+}
+
+.idaho-img-left-desc p {
+  padding-right: 200px;
+}
+.idaho-img-right-top-desc p,
+.idaho-img-right-bottom-desc p,
+.idaho-img-left-desc p {
+  color: var(--white);
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 34px;
+  padding-bottom: 20px;
+}
+
+.idaho-img-right-top-desc h3,
+.idaho-img-right-bottom-desc h3,
+.idaho-img-left-desc h3 {
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: var(--fourth-font);
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Our Client Review Section */
+
+.our-client-review h1 {
+  font-size: 60px;
+}
+
+.our-client-review-img img {
+  border-radius: 100%;
+}
+.our-client-review-desc p {
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--secondary-color);
+}
+
+/* Have Pre-existing Conditions Section */
+
+.pre-exixting-conditions-section {
+  width: 100%;
+  padding: 80px 0;
+}
+.pre-ex-cond-img img {
+  max-width: 100%;
+}
+
+.pre-ex-title {
+  display: flex;
+  padding: 30px 0;
+}
+.pre-ex-title h3 {
+  width: 50%;
+}
+.pre-ex-line-circle {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.pre-ex-line img {
+  max-width: 100%;
+}
+
+.pre-ex-circle {
+  max-width: 100%;
+}
+
+.pre-ex-desc p {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 /* Footer */
