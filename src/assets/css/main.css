@@ -142,7 +142,7 @@ main {
   text-align: center;
 }
 
-.hero-text h3 {
+.hero-text h2 {
   color: var(--white);
   text-transform: uppercase;
 }
@@ -152,33 +152,41 @@ main {
   font-family: var(--thirdly-font);
   text-transform: uppercase;
   margin-top: -10px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 400;
 }
 
-.btns {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 20px;
-  gap: 20px;
-}
-
 .btns button {
-  padding: 13px 17px;
+  margin-top: 20px;
+  padding: 15px 17px;
   border-radius: 0;
   border: 0;
-  border-left: 10px solid var(--btn-color);
   text-transform: uppercase;
   font-weight: 700;
   background: #292929;
   color: var(--white);
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.btns button:nth-child(1),
+.btns button:nth-child(3) {
+  padding-right: 0;
+  padding-left: 0;
+  width: 8px;
+  margin-right: 5px;
+  cursor: default;
+  background: var(--btn-color);
 }
 
-.btns button:hover {
-  border-left: 10px solid #292929;
-  background: var(--btn-color);
+.btns button:nth-child(2) {
+  margin-right: 50px;
+}
+
+.btns button:nth-child(2):hover {
+  transform: scale(1.05);
+}
+.btns button:nth-child(4):hover {
+  transform: scale(1.05);
 }
 
 .hero-footer img {
@@ -281,6 +289,8 @@ main {
   height: 5px;
 }
 
+/* About us section */
+
 .about-us {
   background-image: url("../images/Backgroundtools-01.png");
   background-position: right;
@@ -325,7 +335,6 @@ main {
 .about-us-btn button {
   padding: 13px 17px;
   border: 0;
-  border-left: 10px solid var(--primary-color);
   background: var(--btn-color);
   color: var(--white);
   font-weight: 700;
@@ -333,11 +342,17 @@ main {
   text-transform: uppercase;
   border-radius: 0;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
-
-.about-us-btn button:hover {
-  background: var(--primary-color);
-  border-left: 10px solid var(--btn-color);
+.about-us-btn button:nth-child(1) {
+  padding-left: 0;
+  padding-right: 0;
+  width: 10px;
+  margin-right: 5px;
+  cursor: default;
+}
+.about-us-btn button:nth-child(2):hover {
+  transform: scale(1.05);
 }
 
 /* Contact-form */
@@ -364,8 +379,11 @@ main {
 textarea {
   padding: 20px 30px;
 }
-
 .contact-form .form-btn {
+  text-align: center;
+}
+
+.contact-form .form-btn input {
   width: 15%;
   margin: 0 auto;
   border: 0;
@@ -376,10 +394,20 @@ textarea {
   font-weight: 700;
   cursor: pointer;
   font-family: var(--secondary-font);
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
 }
 
-.contact-form .form-btn:hover {
-  transform: scale(110%);
+.contact-form .form-btn input:nth-child(1) {
+  padding-left: 0;
+  padding-right: 0;
+  width: 10px;
+  margin-right: 5px;
+  cursor: default;
+}
+
+.contact-form .form-btn input:nth-child(2):hover {
+  transform: scale(1.04);
 }
 
 /* Idaho Workers Compensation Section */
@@ -432,12 +460,37 @@ textarea {
   text-transform: uppercase;
   font-family: var(--secondary-font);
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: relative;
 }
 
-.idaho-btn button:hover {
-  transform: scale(110%);
+.idaho-btn button:nth-child(1) {
+  margin-right: 5px;
+  width: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  cursor: default;
 }
 
+.idaho-btn button:nth-child(2):hover {
+  transform: scale(1.05);
+}
+
+/* 
+.idaho-btn button::before {
+  content: "";
+  height: 100%;
+  width: 10px;
+  background: var(--btn-color);
+  margin-right: 10px;
+  position: absolute;
+  left: -15px;
+  top: 0;
+}
+.idaho-btn button:hover::before {
+  transform: scale(0);
+  background-color: #a88028;
+} */
 .idaho-row-2 {
   justify-content: flex-start;
   padding-bottom: 80px;
@@ -552,6 +605,125 @@ textarea {
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
+}
+
+/* Our Blog */
+
+.our-blog {
+  position: relative;
+  padding: 100px 0;
+}
+.blog-title {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.blog-title h3 {
+  width: 50%;
+  text-align: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+.blog-title p {
+  width: 50%;
+  text-align: left;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.feature-img {
+  width: 1250px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.feature-img img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.blog-sum {
+  max-width: 600px;
+  max-height: 440px;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  padding: 20px 50px;
+}
+
+.blog-sum h4 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+
+.blog-sum p {
+  font-size: 20px;
+  font-family: var(--secondary-font);
+  line-height: 38px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.blog-sum a {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--black);
+}
+
+.blog-slide-nav {
+  max-width: 1100px;
+  max-height: 200px;
+  background: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 55px;
+  width: 100%;
+}
+.blog-slide-nav-line {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  align-items: center;
+}
+
+.blog-slide-nav-line hr {
+  margin: 60px 0;
+  border: none;
+  height: 3px;
+  width: 30px;
+  background: var(--white);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.blog-slide-nav-line hr:hover {
+  transform: scale(1.5);
+}
+
+.blog-slide-nav-line hr:nth-child(2) {
+  height: 5px;
+  background: var(--btn-color);
+  width: 50px;
+}
+
+.blog-circle {
+  margin-top: 10px;
+  position: absolute;
+  right: 50px;
 }
 
 /* Footer */

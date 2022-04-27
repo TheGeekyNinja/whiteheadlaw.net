@@ -9,10 +9,12 @@
             <img src="../assets/images/Artboard 19 1.png" alt="" srcset="" />
           </div>
           <div class="hero-text">
-            <h3>IS IT TIME TO PUSH BACK?</h3>
+            <h2>IS IT TIME TO PUSH BACK?</h2>
             <h4>Get a solid legal opinion, today.</h4>
             <div class="btns">
+              <button>&nbsp;</button>
               <button>Call WHITEHEAD</button>
+              <button>&nbsp;</button>
               <button>Send us an Email</button>
             </div>
           </div>
@@ -128,6 +130,7 @@
             </p>
           </div>
           <div class="about-us-btn">
+            <button>&nbsp;</button>
             <button>contact us</button>
           </div>
         </div>
@@ -154,7 +157,8 @@
           </p>
         </div>
         <div class="idaho-btn">
-          <button>contact us</button>
+          <button>&nbsp;</button>
+          <button class="w-hover">contact us</button>
         </div>
       </div>
       <div class="idaho-row-2">
@@ -290,7 +294,40 @@
     </div>
   </div>
   <!-- Our Blog -->
-  <div class="ourblog"></div>
+  <div class="our-blog">
+    <div class="blog-title container">
+      <h3>OUR BLOG</h3>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text
+      </p>
+    </div>
+    <div class="feature-img">
+      <img src="../assets/images/first-blog-feat-img.png" alt="" srcset="" />
+      <div class="blog-sum">
+        <h4>Payment for medical treatment related to the work accident</h4>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type.
+        </p>
+        <a href="#">View More</a>
+      </div>
+    </div>
+    <div class="blog-slide-nav">
+      <div class="blog-slide-nav-line">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+      </div>
+      <div class="blog-circle">
+        <img src="../assets/images/blog-circle.png" alt="" srcset="" />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">

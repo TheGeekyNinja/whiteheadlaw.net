@@ -13,7 +13,10 @@
         rows="10"
         placeholder="Message"
       ></textarea>
-      <input class="form-btn" type="button" value="Make Request" />
+      <div class="form-btn">
+        <input class="" type="button" value="&nbsp;" />
+        <input class="" type="button" value="Make Request" />
+      </div>
     </form>
   </div>
 </template>
