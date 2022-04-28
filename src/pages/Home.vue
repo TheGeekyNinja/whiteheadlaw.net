@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import ContactForm from "../components/Contact-form.vue";
+</script>
+
 <template>
   <div>
     <div class="hero-section">
@@ -6,7 +10,7 @@
         <div class="left-col"></div>
         <div class="right-col">
           <div class="art-board">
-            <img src="../assets/images/Artboard 19 1.png" alt="" srcset="" />
+            <img src="@/assets/images/Artboard 19 1.png" alt="" srcset="" />
           </div>
           <div class="hero-text">
             <h2>IS IT TIME TO PUSH BACK?</h2>
@@ -23,7 +27,7 @@
       <div class="hero-footer">
         <img
           class="hero-footer-img"
-          src="../assets/images/bottomborderheader-01.png"
+          src="@/assets/images/bottomborderheader-01.png"
           alt=""
         />
       </div>
@@ -163,7 +167,7 @@
       </div>
       <div class="idaho-row-2">
         <div class="idaho-img-left">
-          <img src="../assets/images/are-you-tired.png" alt="" srcset="" />
+          <img src="@/assets/images/are-you-tired.png" alt="" srcset="" />
           <div class="idaho-img-left-desc">
             <p>
               Are you tired of dealing with the workers compensation adjusters?
@@ -205,7 +209,7 @@
       <div class="cards">
         <div class="col">
           <div class="col-img our-client-review-img">
-            <img src="../assets/images/John-1.png" alt="" srcset="" />
+            <img src="@/assets/images/John-1.png" alt="" srcset="" />
           </div>
           <div class="col-title col-1 our-client-review-desc">
             <h2>John Doe</h2>
@@ -223,7 +227,7 @@
         </div>
         <div class="col">
           <div class="col-img our-client-review-img">
-            <img src="../assets/images/John-2.png" alt="" srcset="" />
+            <img src="@/assets/images/John-2.png" alt="" srcset="" />
           </div>
           <div class="col-title col-2 our-client-review-desc">
             <h2>John Doe</h2>
@@ -242,7 +246,7 @@
         </div>
         <div class="col">
           <div class="col-img our-client-review-img">
-            <img src="../assets/images/John-3.png" alt="" srcset="" />
+            <img src="@/assets/images/John-3.png" alt="" srcset="" />
           </div>
           <div class="col-title col-3 our-client-review-desc">
             <h2>John Doe</h2>
@@ -277,10 +281,10 @@
         <h3>Have Pre-existing Conditions</h3>
         <div class="pre-ex-line-circle">
           <div class="pre-ex-line">
-            <img src="../assets/images/Rectangle 51.png" alt="" />
+            <img src="@/assets/images/Rectangle 51.png" alt="" />
           </div>
           <div class="pre-ex-circle">
-            <img src="../assets/images/Ellipse 2.png" alt="" />
+            <img src="@/assets/images/Ellipse 2.png" alt="" />
           </div>
         </div>
       </div>
@@ -303,7 +307,7 @@
       </p>
     </div>
     <div class="feature-img">
-      <img src="../assets/images/first-blog-feat-img.png" alt="" srcset="" />
+      <img src="@/assets/images/first-blog-feat-img.png" alt="" srcset="" />
       <div class="blog-sum">
         <h4>Payment for medical treatment related to the work accident</h4>
         <p>
@@ -324,12 +328,8 @@
         <hr />
       </div>
       <div class="blog-circle">
-        <img src="../assets/images/blog-circle.png" alt="" srcset="" />
+        <img src="@/assets/images/blog-circle.png" alt="" srcset="" />
       </div>
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import ContactForm from "../components/Contact-form.vue";
-</script>
