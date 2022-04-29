@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url(./slider.css);
 
 :root {
   --primary-color: #717a75;
@@ -54,7 +55,7 @@ h4 {
 
 .navigation {
   min-height: 100px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.5);
   padding-top: 20px;
   padding-bottom: 10px;
   z-index: 999;
@@ -93,15 +94,22 @@ h4 {
   text-decoration: none;
   color: var(--white);
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400px;
 }
 
+/* Hero Page */
+
 main {
   padding: 50px 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.inner-container {
+  margin-top: -50px;
 }
 
-/* Hero Page */
 .hero-section {
   background-image: url(../images/Hero-1.png);
   background-position: bottom center;
@@ -157,6 +165,7 @@ main {
 }
 
 .btns button {
+  position: relative;
   margin-top: 20px;
   padding: 15px 17px;
   border-radius: 0;
@@ -167,6 +176,7 @@ main {
   color: var(--white);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  z-index: 5;
 }
 .btns button:nth-child(1),
 .btns button:nth-child(3) {
@@ -192,6 +202,11 @@ main {
 .hero-footer img {
   width: 100%;
   margin-bottom: -15px;
+}
+
+.btns button a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 /* Our focus Section */
@@ -231,13 +246,13 @@ main {
 }
 
 .col-1 h2 {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .col-2 h2 {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .col-title h2:nth-child(2) {
