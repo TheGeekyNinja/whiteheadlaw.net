@@ -47,7 +47,7 @@
   justify-content: flex-end;
 }
 
-i {
+.toggle-img i {
   cursor: pointer;
   display: flex !important;
   align-items: center;

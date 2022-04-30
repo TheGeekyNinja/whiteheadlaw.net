@@ -43,7 +43,7 @@ h2 {
 
 h3 {
   font-size: 60px;
-  font-weight: 600px;
+  font-weight: 600;
   line-height: 60px;
 }
 
@@ -77,12 +77,15 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .main-nav {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  position: absolute;
+  right: 0;
 }
 
 .main-nav li {
@@ -95,7 +98,7 @@ h4 {
   color: var(--white);
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: 400px;
+  font-weight: 400;
 }
 
 /* Hero Page */
@@ -789,4 +792,230 @@ hr {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+/* Mobile CSS */
+
+/* Mobile Navigation Section */
+.nav-icon i {
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+.icon-active {
+  transform: rotate(180deg);
+}
+
+.dropDown-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  background-color: var(--white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.dropDown-nav li {
+  list-style: none;
+}
+
+.dropDown-nav li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.mobile-nav-enter-active,
+.mobile-nav-leave-active {
+  transition: all 1s ease;
+}
+
+.mobile-nav-enter-from,
+.mobile-nav-leave-to {
+  transform: translateX(-250px);
+}
+
+.mobile-nav-enter-to {
+  transform: translateX(0);
+}
+
+@media only screen and (max-width: 950px) {
+  .container {
+    max-width: calc(100vw - 30px);
+    margin: 0 auto;
+  }
+  .logo-img {
+    display: flex;
+  }
+  /* Hero Section items */
+  .inner-section {
+    padding-top: 150px;
+  }
+
+  .inner-container .right-col {
+    float: none !important;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .inner-container .right-col .art-board img {
+    max-width: 150px;
+  }
+  .inner-container .right-col .hero-text h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .inner-container .right-col .hero-text h4 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .slider-nav {
+    display: none;
+  }
+
+  .btns button:nth-child(2) {
+    margin-right: 10px;
+  }
+  .our-focus-section .cards {
+    flex-direction: column;
+  }
+
+  .about-us {
+    background-position: center;
+  }
+
+  .about-us-inner-sec {
+    flex-direction: column;
+  }
+
+  .about-us-sec-img {
+    max-width: 100%;
+  }
+  .about-us-img {
+    max-width: 100%;
+  }
+
+  .about-us-title h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .about-us-desc p {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-us-btn {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .drop-us-form {
+    padding: 50px 0;
+  }
+  .contact-form input,
+  textarea {
+    padding-left: 10px;
+  }
+
+  .contact-form .form-btn input {
+    width: 50%;
+    padding-left: 15px;
+  }
+
+  .idaho-row-1,
+  .idaho-row-2 {
+    flex-direction: column;
+  }
+  .idaho-row-1 .idaho-title-desc {
+    padding: 0;
+    width: 100%;
+  }
+
+  .idaho-title-desc h2 {
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .idaho-title-desc p {
+    text-align: center;
+  }
+
+  .idaho-row-1 .idaho-btn {
+    width: 100%;
+  }
+  .idaho-row-2 .idaho-img-left {
+    width: 100%;
+  }
+
+  .idaho-img-right-top-desc p,
+  .idaho-img-right-bottom-desc p,
+  .idaho-img-left-desc p {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .idaho-img-left-desc p {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+  .idaho-row-2 .idaho-img-right {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .our-client-review h1 {
+    font-size: 50px;
+    line-height: 40px;
+  }
+  .pre-ex-title {
+    flex-direction: column;
+  }
+
+  .pre-ex-title h3 {
+    width: 100%;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .pre-ex-line-circle {
+    display: none;
+  }
+  .pre-ex-desc p {
+    text-align: center;
+  }
+
+  .blog-title {
+    flex-direction: column;
+  }
+
+  .our-blog {
+    padding: 0;
+  }
+  .blog-slide-nav {
+    bottom: 15px;
+  }
+  .blog-title h3,
+  .blog-title p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .blog-slide-nav-line {
+    margin-left: -50px;
+  }
+  .blog-circle {
+    right: 10px;
+  }
 }
