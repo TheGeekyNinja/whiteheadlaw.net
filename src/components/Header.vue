@@ -60,9 +60,9 @@ export default {
   data() {
     return {
       scrollNav: null,
-      mobile: null,
-      mobileNav: null,
-      windowsWidth: null,
+      mobile: false,
+      mobileNav: false,
+      windowsWidth: 0,
     };
   },
   created() {

@@ -13,9 +13,8 @@
     </div>
 
     <!-- Pagination feature -->
-    <div class="pagination">
+    <div v-if="paginationEnabled" class="pagination">
       <span
-        v-if="paginationEnabled"
         v-for="(slide, index) in getSlideNumber"
         :key="index"
         :class="{ active: index + 1 === currentSlide }"
@@ -72,7 +71,7 @@ export default {
     // Previous slide Control
     const prevSlideControl = () => {
       if (currentSlide.value === 1) {
-        currentSlide.value = 1;
+        currentSlide.value = 5;
         return;
       }
       currentSlide.value -= 1;
