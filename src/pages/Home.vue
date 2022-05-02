@@ -1,10 +1,19 @@
-<script setup lang="ts">
+<script lang="ts">
 import ContactForm from "../components/Contact-form.vue";
+import HeroSlider from "../components/Hero-slider.vue";
+
+export default {
+  Name: "The Whiteheadlaw",
+  components: {
+    ContactForm,
+    HeroSlider,
+  },
+};
 </script>
 
 <template>
-  <div>
-    <div class="hero-section">
+  <!-- <div> -->
+  <!-- <div class="hero-section">
       <main class="container">
         <div class="inner-section"></div>
         <div class="left-col"></div>
@@ -32,7 +41,12 @@ import ContactForm from "../components/Contact-form.vue";
         />
       </div>
     </div>
+  </div> -->
+
+  <div class="Hero-slider-Section">
+    <HeroSlider />
   </div>
+
   <!-- Focus Section -->
   <div class="container">
     <div class="our-focus-section">
@@ -275,16 +289,16 @@ import ContactForm from "../components/Contact-form.vue";
   <div class="container">
     <div class="pre-exixting-conditions-section">
       <div class="pre-ex-cond-img">
-        <img src="../assets/images/Have Pre-existing Conditions.png" alt="" />
+        <img src="../assets/images/HavePre-existingConditions.png" alt="" />
       </div>
       <div class="pre-ex-title">
         <h3>Have Pre-existing Conditions</h3>
         <div class="pre-ex-line-circle">
           <div class="pre-ex-line">
-            <img src="@/assets/images/Rectangle 51.png" alt="" />
+            <img src="@/assets/images/Rectangle-51.png" alt="" />
           </div>
           <div class="pre-ex-circle">
-            <img src="@/assets/images/Ellipse 2.png" alt="" />
+            <img src="@/assets/images/Ellipse-2.png" alt="" />
           </div>
         </div>
       </div>
@@ -297,6 +311,7 @@ import ContactForm from "../components/Contact-form.vue";
       </div>
     </div>
   </div>
+
   <!-- Our Blog -->
   <div class="our-blog">
     <div class="blog-title container">
