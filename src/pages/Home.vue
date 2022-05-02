@@ -289,16 +289,16 @@ export default {
   <div class="container">
     <div class="pre-exixting-conditions-section">
       <div class="pre-ex-cond-img">
-        <img src="../assets/images/Have Pre-existing Conditions.png" alt="" />
+        <img src="../assets/images/HavePre-existingConditions.png" alt="" />
       </div>
       <div class="pre-ex-title">
         <h3>Have Pre-existing Conditions</h3>
         <div class="pre-ex-line-circle">
           <div class="pre-ex-line">
-            <img src="@/assets/images/Rectangle 51.png" alt="" />
+            <img src="@/assets/images/Rectangle-51.png" alt="" />
           </div>
           <div class="pre-ex-circle">
-            <img src="@/assets/images/Ellipse 2.png" alt="" />
+            <img src="@/assets/images/Ellipse-2.png" alt="" />
           </div>
         </div>
       </div>

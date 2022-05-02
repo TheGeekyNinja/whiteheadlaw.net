@@ -26,9 +26,9 @@
 </template>
 
 <script lang="ts">
-import { ref, onMounted } from "vue";
+import { ref, onMounted, defineComponent } from "vue";
 
-export default {
+export default defineComponent({
   name: "Carousel",
   props: [
     "slideNavigation",
@@ -41,7 +41,7 @@ export default {
     // Control the current Slide visible
     const currentSlide = ref(1);
     // Get the number of slide we have
-    const getSlideNumber = ref(null);
+    const getSlideNumber = ref(null as null | number);
 
     // For Autoplay feature
     const autoPlaySlide = ref(
@@ -79,7 +79,7 @@ export default {
 
     // Pagination click control
 
-    const goToSlideControl = (index) => {
+    const goToSlideControl = (index: number) => {
       currentSlide.value = index + 1;
     };
 
@@ -110,7 +110,7 @@ export default {
       slideNavEnabled,
     };
   },
-};
+});
 </script>
 
 <style scoped></style>

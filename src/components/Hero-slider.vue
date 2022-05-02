@@ -41,8 +41,9 @@
 <script lang="ts">
 import Carousel from "../components/slider/Carousel.vue";
 import Slider from "../components/slider/Slider.vue";
+import { defineComponent } from "vue";
 
-export default {
+export default defineComponent({
   name: "Hero Slider",
   components: {
     Carousel,
@@ -61,5 +62,5 @@ export default {
 
     return { carouselSlides, getImageUrl };
   },
-};
+});
 </script>
