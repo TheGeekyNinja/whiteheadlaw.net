@@ -72,7 +72,7 @@ export default defineComponent({
     },
     validateEmail(value: any) {
       if (!value) {
-        return "This field should be empty";
+        return "This field should not be empty";
       }
       const regex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
       if (!regex.test(value)) {
