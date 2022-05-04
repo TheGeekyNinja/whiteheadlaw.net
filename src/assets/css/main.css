@@ -402,7 +402,8 @@ textarea {
   text-align: center;
 }
 
-.contact-form .form-btn input {
+.contact-form .form-btn input,
+.form-btn button {
   margin: 0 auto;
   border: 0;
   border-radius: 0;
@@ -416,6 +417,10 @@ textarea {
   text-transform: uppercase;
 }
 
+.form-btn button {
+  padding: 20px 25px;
+}
+
 .contact-form .form-btn input:nth-child(1) {
   padding-left: 0;
   padding-right: 0;
@@ -424,8 +429,13 @@ textarea {
   cursor: default;
 }
 
-.contact-form .form-btn input:nth-child(2):hover {
+.contact-form .form-btn button:hover {
   transform: scale(1.04);
+}
+
+span[role="alert"] {
+  color: var(--btn-color);
+  margin-top: -30px;
 }
 
 /* Idaho Workers Compensation Section */
