@@ -13,16 +13,19 @@
         </div>
         <ul v-show="!mobile" class="main-nav">
           <li>
-            <router-link :to="{}">About Us</router-link>
+            <!-- <router-link :to="{}">About Us</router-link> -->
+            <a href="#about">About Us</a>
           </li>
           <li>
             <router-link :to="{}">Videos</router-link>
           </li>
           <li>
-            <router-link :to="{}">Testimonials</router-link>
+            <!-- <router-link :to="{}">Testimonials</router-link> -->
+            <a href="#testimonial">Testimonials</a>
           </li>
           <li>
-            <router-link :to="{}">Contact Us</router-link>
+            <!-- <router-link :to="{}">Contact Us</router-link> -->
+            <a href="#contact">Contact Us</a>
           </li>
         </ul>
         <div class="nav-icon">

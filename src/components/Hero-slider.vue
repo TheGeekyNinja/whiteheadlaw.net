@@ -19,7 +19,7 @@
       <div class="left-col"></div>
       <div class="right-col">
         <div class="art-board">
-          <img src="@/assets/images/Artboard.png" alt="" srcset="" />
+          <img src="@/assets/images/Artboard-2.png" alt="" srcset="" />
         </div>
         <div class="hero-text">
           <h2>IS IT TIME TO PUSH BACK?</h2>
