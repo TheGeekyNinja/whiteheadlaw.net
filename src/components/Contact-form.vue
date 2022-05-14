@@ -42,7 +42,7 @@
       <ErrorMessage name="message" />
       <div class="form-btn">
         <input class="" type="button" value="&nbsp;" />
-        <button>Make Request</button>
+        <button>Make A Request</button>
       </div>
     </Form>
   </div>

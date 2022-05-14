@@ -55,7 +55,7 @@ h4 {
 
 .navigation {
   min-height: 150px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   padding-top: 20px;
   padding-bottom: 10px;
   z-index: 999;
@@ -818,7 +818,58 @@ div.icon {
   gap: 10px;
   align-items: center;
 }
-div.icon a {
+
+/* 404 Error Page */
+
+.hero-bg {
+  background-image: url(../images/Hero-1.png);
+  height: 100vh;
+  margin-top: -150px;
+}
+
+.error {
+  text-align: center;
+  height: 100vh;
+  padding-top: 260px;
+}
+.error h1 {
+  font-size: 250px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: var(--white);
+  outline: none;
+  font-family: var(--secondary-font);
+}
+
+.error h2 {
+  font-size: 200px;
+  line-height: 250px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.error p {
+  font-size: 40px;
+  margin-top: -60px;
+  color: var(--black);
+  font-weight: 400;
+  color: var(--white);
+}
+
+.error-button {
+  padding: 13px 17px;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  background: var(--btn-color);
+  color: var(--white);
+  border: 2px solid var(--btn-color);
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
+  font-size: 400;
+}
+.error-button:hover {
+  transform: scale(1.1);
 }
 
 /* Mobile CSS */
