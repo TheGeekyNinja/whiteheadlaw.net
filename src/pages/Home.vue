@@ -156,12 +156,12 @@ export default {
     </div>
   </div>
   <!-- Form Section -->
-  <div id="contact" class="drop-us-form">
+  <!-- <div id="contact" class="drop-us-form">
     <div class="form-title">
       <h2>Drop us a line!</h2>
     </div>
     <ContactForm />
-  </div>
+  </div> -->
   <!-- Idaho Workers Section -->
   <div class="idaho-workers-section">
     <div class="container">
@@ -310,6 +310,13 @@ export default {
         </p>
       </div>
     </div>
+  </div>
+  <!-- Form Section -->
+  <div id="contact" class="drop-us-form">
+    <div class="form-title">
+      <h2>Drop us a line!</h2>
+    </div>
+    <ContactForm />
   </div>
 
   <!-- Our Blog -->
