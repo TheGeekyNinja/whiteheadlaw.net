@@ -1,12 +1,14 @@
 <script lang="ts">
 import ContactForm from "../components/Contact-form.vue";
 import HeroSlider from "../components/Hero-slider.vue";
+import OurFocusSlider from "../components/OurFocusSlider.vue";
 
 export default {
   Name: "The Whiteheadlaw",
   components: {
     ContactForm,
     HeroSlider,
+    OurFocusSlider,
   },
 };
 </script>
@@ -48,68 +50,7 @@ export default {
   </div>
 
   <!-- Focus Section -->
-  <div class="container">
-    <div class="our-focus-section">
-      <h1>OUR FOCUS</h1>
-      <div class="cards">
-        <div class="col">
-          <div class="col-img">
-            <img src="../assets/images/badges-01.png" alt="" srcset="" />
-          </div>
-          <div class="col-title col-1">
-            <h2>Workman&apos;s Compensation</h2>
-          </div>
-          <div class="col-desc">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipi scing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagitt is ipsum.
-              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-              massa. Vestibul um lacinia arcu eget nulla.
-            </p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="col-img">
-            <img src="../assets/images/badges-02.png" alt="" srcset="" />
-          </div>
-          <div class="col-title col-2"><h2>Legal Representation</h2></div>
-          <div class="col-desc">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipi scing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagitt is ipsum.
-              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-              massa. Vestibul um lacinia arcu eget nulla.
-            </p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="col-img">
-            <img src="../assets/images/badges-03.png" alt="" srcset="" />
-          </div>
-          <div class="col-title col-3">
-            <h2>Special Indemnity Fund for the Permanently Disabled</h2>
-          </div>
-          <div class="col-desc">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipi scing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagitt is ipsum.
-              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-              massa. Vestibul um lacinia arcu eget nulla.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="hr-line"><hr /></div>
-      <div class="three-line">
-        <div class="line-three"><hr /></div>
-        <div class="line-two"><hr /></div>
-        <div class="line-three"><hr /></div>
-      </div>
-    </div>
-  </div>
+  <OurFocusSlider />
   <!-- About-us Page -->
   <div id="about" class="about-us">
     <div class="container">

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@types/node": "^17.0.29",
+    "swiper": "^8.1.4",
     "vee-validate": "^4.5.11",
     "vue": "^3.2.25",
     "vue-router": "4"
