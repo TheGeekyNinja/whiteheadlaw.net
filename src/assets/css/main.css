@@ -54,7 +54,7 @@ h4 {
 }
 
 .navigation {
-  min-height: 100px;
+  min-height: 150px;
   background: rgba(255, 255, 255, 0.5);
   padding-top: 20px;
   padding-bottom: 10px;
@@ -70,7 +70,9 @@ h4 {
 }
 
 .logo-img {
-  max-width: 250px;
+  max-width: 500px;
+  position: absolute;
+  top: -15px;
 }
 
 .top-nav {
@@ -86,6 +88,7 @@ h4 {
   gap: 50px;
   position: absolute;
   right: 0;
+  top: 35px;
 }
 
 .main-nav li {
@@ -757,6 +760,7 @@ span[role="alert"] {
 /* Footer */
 
 footer {
+  min-height: 400px;
   background-image: url("../images/footer.jpg");
   background-position: center center;
   background-size: cover;
@@ -767,6 +771,7 @@ footer {
   overflow: hidden;
 }
 .footer-container {
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -777,6 +782,8 @@ footer {
 .footer-nav {
   width: 60%;
   margin: 0 auto;
+  height: 200px;
+  position: relative;
 }
 
 hr {
@@ -794,6 +801,7 @@ hr {
 
 .footer-menu {
   padding: 50px 0;
+  width: 100%;
 }
 
 .footer-copy-section {
@@ -802,6 +810,15 @@ hr {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+div.icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+div.icon a {
 }
 
 /* Mobile CSS */

@@ -111,7 +111,7 @@ export default {
     </div>
   </div>
   <!-- About-us Page -->
-  <div class="about-us">
+  <div id="about" class="about-us">
     <div class="container">
       <div class="about-us-inner-sec">
         <div class="about-us-sec-img">
@@ -156,7 +156,7 @@ export default {
     </div>
   </div>
   <!-- Form Section -->
-  <div class="drop-us-form">
+  <div id="contact" class="drop-us-form">
     <div class="form-title">
       <h2>Drop us a line!</h2>
     </div>
@@ -218,7 +218,7 @@ export default {
   </div>
   <!-- Our Client Reviews Section -->
   <div class="container">
-    <div class="our-focus-section our-client-review">
+    <div id="testimonial" class="our-focus-section our-client-review">
       <h1>Our Clients Reviews</h1>
       <div class="cards">
         <div class="col">
