@@ -11,7 +11,7 @@
                 <a href="#about">About Us</a>
               </li>
               <li>
-                <router-link to="/videos">Videos</router-link>
+                <router-link to="#">Videos</router-link>
               </li>
               <li>
                 <!-- <router-link to="/testimonials">Testimonials</router-link> -->
