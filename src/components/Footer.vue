@@ -26,7 +26,8 @@
           <hr />
           <div class="footer-copy-section">
             <div class="bottom-most">
-              &copy; Copyright 2004-2022 whiteheadlaw - All Rights Reserved
+              &copy; Copyright 2004-2022 <a href="/">whiteheadlaw</a> - All
+              Rights Reserved
             </div>
             <div class="icon">
               <a href="https://facebook.com/kibarne" target="_blank">
