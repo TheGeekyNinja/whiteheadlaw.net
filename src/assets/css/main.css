@@ -49,7 +49,7 @@ h3 {
 
 h4 {
   font-size: 32px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 32px;
 }
 
@@ -453,6 +453,63 @@ span[role="alert"] {
   color: var(--btn-color);
   margin-top: -30px;
 }
+.contact-inner-column {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+.contact-left-side,
+.contact-right-side {
+  width: 50%;
+}
+.form-title h3 {
+  font-family: var(--fourth-font);
+  font-weight: 400;
+  font-size: 50px;
+}
+.form-title p {
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  padding-bottom: 20px;
+}
+.address,
+.office-hours,
+.phone,
+.fax,
+.email-add {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.address .address-desc,
+.office-hours-desc,
+.phone-desc,
+.fax-desc,
+.email-add-desc {
+  width: 90%;
+}
+
+.address-desc p,
+.office-hours-desc p,
+.phone-desc p,
+.fax-desc p,
+.email-add-desc p {
+  font-size: 16px;
+  font-family: var(--secondary-font);
+}
+
+.address img,
+.office-hours img,
+.phone img,
+.fax img,
+.email-add img {
+  width: 10%;
+}
 
 /* Idaho Workers Compensation Section */
 
@@ -855,6 +912,18 @@ div.icon {
   align-items: center;
 }
 
+.facebook,
+.instagram,
+.twitter {
+  width: 50px;
+  transition: all 0.3s ease-out;
+}
+
+.facebook:hover,
+.instagram:hover,
+.twitter:hover {
+  transform: scale(1.2);
+}
 .bottom-most a {
   color: var(--white);
   text-decoration: none;
@@ -1051,6 +1120,8 @@ div.icon {
     margin-top: 50px;
   }
 
+  /* Form/contact us starts here */
+
   .drop-us-form {
     padding: 50px 0;
   }
@@ -1063,6 +1134,46 @@ div.icon {
     width: 50%;
     padding-left: 15px;
   }
+
+  .contact-inner-column {
+    flex-direction: column;
+  }
+
+  .contact-left-side,
+  .contact-right-side {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .contact-right-side {
+    text-align: center;
+  }
+
+  .address,
+  .office-hours,
+  .phone,
+  .fax,
+  .email-add {
+    gap: 20px;
+  }
+
+  .address img,
+  .office-hours img,
+  .phone img,
+  .fax img,
+  .email-add img {
+    width: 25%;
+    padding-left: 30px;
+  }
+  .address .address-desc,
+  .office-hours-desc,
+  .phone-desc,
+  .fax-desc,
+  .email-add-desc {
+    width: 70%;
+  }
+
+  /* Idaho section starts here */
 
   .idaho-row-1,
   .idaho-row-2 {
