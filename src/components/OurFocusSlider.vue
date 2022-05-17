@@ -3,20 +3,39 @@
     <div class="our-focus-section">
       <h1>OUR FOCUS</h1>
       <swiper
-        :slidesPerView="3"
+        :slidesPerView="1"
         :spaceBetween="50"
         :autoplay="{
           delay: 5000,
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }"
-        :slidesPerGroup="3"
+        :speed="5000"
+        :slidesPerGroup="1"
+        :grabCursor="true"
         :loop="true"
         :loopFillGroupWithBlank="true"
         :pagination="{
           clickable: true,
         }"
         :navigation="false"
+        :breakpoints="{
+          '640': {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            slidesPerGroup: 2,
+          },
+          '768': {
+            slidesPerView: 3,
+            spaceBetween: 40,
+            slidesPerGroup: 3,
+          },
+          '1024': {
+            slidesPerView: 3,
+            spaceBetween: 50,
+            slidesPerGroup: 3,
+          },
+        }"
         :modules="modules"
         class="mySwiper"
       >

@@ -2,6 +2,8 @@
 import ContactForm from "../components/Contact-form.vue";
 import HeroSlider from "../components/Hero-slider.vue";
 import OurFocusSlider from "../components/OurFocusSlider.vue";
+import Testimonials from "../components/TestimonialSlider.vue";
+import Blog from "../components/BlogSlider.vue";
 
 export default {
   Name: "The Whiteheadlaw",
@@ -9,6 +11,8 @@ export default {
     ContactForm,
     HeroSlider,
     OurFocusSlider,
+    Testimonials,
+    Blog,
   },
 };
 </script>
@@ -90,19 +94,16 @@ export default {
           </div>
           <div class="about-us-btn">
             <button>&nbsp;</button>
-            <button>contact us</button>
+
+            <button>
+              <a class="about-btn-link" href="#contact">contact us</a>
+            </button>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Form Section -->
-  <!-- <div id="contact" class="drop-us-form">
-    <div class="form-title">
-      <h2>Drop us a line!</h2>
-    </div>
-    <ContactForm />
-  </div> -->
+
   <!-- Idaho Workers Section -->
   <div class="idaho-workers-section">
     <div class="container">
@@ -158,74 +159,8 @@ export default {
     </div>
   </div>
   <!-- Our Client Reviews Section -->
-  <div class="container">
-    <div id="testimonial" class="our-focus-section our-client-review">
-      <h1>Our Clients Reviews</h1>
-      <div class="cards">
-        <div class="col">
-          <div class="col-img our-client-review-img">
-            <img src="@/assets/images/John-1.png" alt="" srcset="" />
-          </div>
-          <div class="col-title col-1 our-client-review-desc">
-            <h2>John Doe</h2>
-            <p>Client</p>
-          </div>
-          <div class="col-desc">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipi scing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagitt is ipsum.
-              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-              massa. Vestibul um lacinia arcu eget nulla.
-            </p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="col-img our-client-review-img">
-            <img src="@/assets/images/John-2.png" alt="" srcset="" />
-          </div>
-          <div class="col-title col-2 our-client-review-desc">
-            <h2>John Doe</h2>
-            <p>client</p>
-          </div>
+  <Testimonials />
 
-          <div class="col-desc">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipi scing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagitt is ipsum.
-              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-              massa. Vestibul um lacinia arcu eget nulla.
-            </p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="col-img our-client-review-img">
-            <img src="@/assets/images/John-3.png" alt="" srcset="" />
-          </div>
-          <div class="col-title col-3 our-client-review-desc">
-            <h2>John Doe</h2>
-            <p>Client</p>
-          </div>
-          <div class="col-desc">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipi scing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagitt is ipsum.
-              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-              massa. Vestibul um lacinia arcu eget nulla.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="hr-line"><hr /></div>
-      <div class="three-line">
-        <div class="line-three"><hr /></div>
-        <div class="line-two"><hr /></div>
-        <div class="line-three"><hr /></div>
-      </div>
-    </div>
-  </div>
   <!-- Have Pre-existing Conditions Section -->
   <div class="container">
     <div class="pre-exixting-conditions-section">
@@ -261,38 +196,5 @@ export default {
   </div>
 
   <!-- Our Blog -->
-  <div class="our-blog">
-    <div class="blog-title container">
-      <h3>OUR BLOG</h3>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text
-      </p>
-    </div>
-    <div class="feature-img">
-      <img src="@/assets/images/first-blog-feat-img.png" alt="" srcset="" />
-      <div class="blog-sum">
-        <h4>Payment for medical treatment related to the work accident</h4>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type.
-        </p>
-        <a href="#">View More</a>
-      </div>
-    </div>
-    <div class="blog-slide-nav">
-      <div class="blog-slide-nav-line">
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-      </div>
-      <div class="blog-circle">
-        <img src="@/assets/images/blog-circle.png" alt="" srcset="" />
-      </div>
-    </div>
-  </div>
+  <Blog />
 </template>
