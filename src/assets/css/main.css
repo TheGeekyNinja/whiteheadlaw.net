@@ -468,6 +468,7 @@ span[role="alert"] {
   font-family: var(--fourth-font);
   font-weight: 400;
   font-size: 50px;
+  margin-top: -15px;
 }
 .form-title p {
   font-size: 18px;
@@ -1302,14 +1303,17 @@ div.icon {
     min-height: 300px;
   }
   .main-nav {
-    gap: 0;
+    gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   .footer-menu {
     padding-top: 10px;
   }
   .footer-nav {
     height: 150px;
+    width: 80%;
   }
   .footer-copy-section {
     position: static;
