@@ -32,12 +32,9 @@
         <div class="feature-img container">
           <img src="@/assets/images/first-blog-feat-img.png" alt="" srcset="" />
           <div class="blog-sum">
-            <h4>Payment for medical treatment related to the work accident</h4>
+            <h4>{{ header }}</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type.
+              {{ description }}
             </p>
             <a href="#">View More</a>
           </div>
@@ -47,12 +44,9 @@
         <div class="feature-img container">
           <img src="@/assets/images/first-blog-feat-img.png" alt="" srcset="" />
           <div class="blog-sum">
-            <h4>Payment for medical treatment related to the work accident</h4>
+            <h4>{{ header }}</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type.
+              {{ description }}
             </p>
             <a href="#">View More</a>
           </div>
@@ -62,12 +56,9 @@
         <div class="feature-img container">
           <img src="@/assets/images/first-blog-feat-img.png" alt="" srcset="" />
           <div class="blog-sum">
-            <h4>Payment for medical treatment related to the work accident</h4>
+            <h4>{{ header }}</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type.
+              {{ description }}
             </p>
             <a href="#">View More</a>
           </div>
@@ -77,12 +68,9 @@
         <div class="feature-img container">
           <img src="@/assets/images/first-blog-feat-img.png" alt="" srcset="" />
           <div class="blog-sum">
-            <h4>Payment for medical treatment related to the work accident</h4>
+            <h4>{{ header }}</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type.
+              {{ description }}
             </p>
             <a href="#">View More</a>
           </div>
@@ -92,12 +80,9 @@
         <div class="feature-img container">
           <img src="@/assets/images/first-blog-feat-img.png" alt="" srcset="" />
           <div class="blog-sum">
-            <h4>Payment for medical treatment related to the work accident</h4>
+            <h4>{{ header }}</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type.
+              {{ description }}
             </p>
             <a href="#">View More</a>
           </div>
@@ -107,12 +92,9 @@
         <div class="feature-img container">
           <img src="@/assets/images/first-blog-feat-img.png" alt="" srcset="" />
           <div class="blog-sum">
-            <h4>Payment for medical treatment related to the work accident</h4>
+            <h4>{{ header }}</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type.
+              {{ description }}
             </p>
             <a href="#">View More</a>
           </div>
@@ -128,28 +110,35 @@
   </div>
 </template>
 <script lang="ts">
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from "swiper/vue";
+  // Import Swiper Vue.js components
+  import { Swiper, SwiperSlide } from "swiper/vue";
 
-// Import Swiper styles
-import "swiper/css";
+  // Import Swiper styles
+  import "swiper/css";
 
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+  import "swiper/css/pagination";
+  import "swiper/css/navigation";
 
-// import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
-import { defineComponent } from "vue";
+  // import required modules
+  import { Autoplay, Pagination, Navigation } from "swiper";
+  import { defineComponent } from "vue";
 
-export default defineComponent({
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    return {
-      modules: [Autoplay, Pagination, Navigation],
-    };
-  },
-});
+  export default defineComponent({
+    components: {
+      Swiper,
+      SwiperSlide,
+    },
+    data() {
+      return {
+        header: "Payment for medical treatment related to the work accident",
+        description:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+      };
+    },
+    setup() {
+      return {
+        modules: [Autoplay, Pagination, Navigation],
+      };
+    },
+  });
 </script>

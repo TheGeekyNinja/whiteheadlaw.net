@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="contact-left-side">
     <Form ref="form" @submit="onSubmit" class="contact-form">
       <title class="form-title">Drop us a line!</title>
       <Field

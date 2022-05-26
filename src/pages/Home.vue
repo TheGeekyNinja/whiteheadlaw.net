@@ -188,11 +188,70 @@ export default {
     </div>
   </div>
   <!-- Form Section -->
-  <div id="contact" class="drop-us-form">
-    <div class="form-title">
-      <h2>Drop us a line!</h2>
+  <div class="container">
+    <div id="contact" class="drop-us-form">
+      <div class="form-title">
+        <h2>Drop us a line!</h2>
+      </div>
+      <div class="contact-inner-column">
+        <ContactForm />
+        <div class="contact-right-side">
+          <div class="form-title">
+            <h3>Contact information</h3>
+            <p>
+              You can contact us using the details below or use the contact
+              form.
+            </p>
+          </div>
+          <div class="address">
+            <img src="../assets/images/map-icon.svg" alt="" />
+            <div class="address-desc">
+              <h4>Address&colon;</h4>
+              <p>
+                2469 South Silver Beach Road <br />
+                Coeur d&apos;Alene&comma; ID 83814
+              </p>
+            </div>
+          </div>
+          <div class="office-hours">
+            <img src="../assets/images/schedule.svg" alt="" />
+            <div class="office-hours-desc">
+              <h4>Office Hours&colon;</h4>
+              <p>
+                Monday&dash;Thursday <br />
+                8&colon;00 am &dash; 5:&colon;00 pm PST<br />
+                Friday <br />
+                8&colon;00 am &dash; 3:&colon;00 pm PST
+              </p>
+            </div>
+          </div>
+          <div class="phone">
+            <img src="../assets/images/phone.svg" alt="" />
+            <div class="phone-desc">
+              <h4>Phone&colon;</h4>
+              <p>
+                Toll free &lpar;800&rpar; 334&dash;5291 <br />
+                &#40;208&#41; 765&dash;5291
+              </p>
+            </div>
+          </div>
+          <div class="fax">
+            <img src="../assets/images/fax.svg" alt="" />
+            <div class="fax-desc">
+              <h4>Fax&colon;</h4>
+              <p>&#40;208&#41; 765&dash;6895</p>
+            </div>
+          </div>
+          <div class="email-add">
+            <img src="../assets/images/email.svg" alt="" />
+            <div class="email-add-desc">
+              <h4>Email Address&colon;</h4>
+              <p>info&commat;whiteheadlaw.net</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <ContactForm />
   </div>
 
   <!-- Our Blog -->

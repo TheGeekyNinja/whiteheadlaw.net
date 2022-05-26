@@ -31,13 +31,25 @@
             </div>
             <div class="icon">
               <a href="https://facebook.com/kibarne" target="_blank">
-                <img src="../assets/images/Facebook.png" alt="" />
+                <img
+                  class="facebook"
+                  src="../assets/images/Facebook.png"
+                  alt=""
+                />
               </a>
               <a href="https://instagram.com/dindoquitor" target="_blank">
-                <img src="../assets/images/Instagram.png" alt="" />
+                <img
+                  class="instagram"
+                  src="../assets/images/Instagram.png"
+                  alt=""
+                />
               </a>
               <a href="https://twitter.com/dindoquitor" target="_blank">
-                <img src="../assets/images/Twitter.png" alt="" />
+                <img
+                  class="twitter"
+                  src="../assets/images/Twitter.png"
+                  alt=""
+                />
               </a>
             </div>
           </div>
