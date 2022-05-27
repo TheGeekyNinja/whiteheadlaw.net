@@ -255,5 +255,5 @@ export default {
   </div>
 
   <!-- Our Blog -->
-  <Blog />
+  <!-- <Blog /> -->
 </template>
