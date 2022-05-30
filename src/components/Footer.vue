@@ -30,21 +30,21 @@
               Rights Reserved
             </div>
             <div class="icon">
-              <a href="https://facebook.com/kibarne" target="_blank">
+              <a :href="facebook_url" target="_blank">
                 <img
                   class="facebook"
                   src="../assets/images/Facebook.png"
                   alt=""
                 />
               </a>
-              <a href="https://instagram.com/dindoquitor" target="_blank">
+              <a :href="instagram_url" target="_blank">
                 <img
                   class="instagram"
                   src="../assets/images/Instagram.png"
                   alt=""
                 />
               </a>
-              <a href="https://twitter.com/dindoquitor" target="_blank">
+              <a :href="twitter_url" target="_blank">
                 <img
                   class="twitter"
                   src="../assets/images/Twitter.png"
@@ -58,3 +58,18 @@
     </footer>
   </div>
 </template>
+
+<script lang="ts">
+  import { defineComponent } from "vue";
+
+  export default defineComponent({
+    name: "Footer",
+    data() {
+      return {
+        facebook_url: "https://facebook.com",
+        instagram_url: "https://instagram.com",
+        twitter_url: "https://twitter.com",
+      };
+    },
+  });
+</script>

@@ -578,6 +578,11 @@ span[role="alert"] {
   transform: scale(1.05);
 }
 
+.idaho-btn button a {
+  text-decoration: none;
+  color: var(--white);
+}
+
 /* 
 .idaho-btn button::before {
   content: "";
