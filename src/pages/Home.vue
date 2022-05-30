@@ -1,20 +1,25 @@
 <script lang="ts">
-import ContactForm from "../components/Contact-form.vue";
-import HeroSlider from "../components/Hero-slider.vue";
-import OurFocusSlider from "../components/OurFocusSlider.vue";
-import Testimonials from "../components/TestimonialSlider.vue";
-import Blog from "../components/BlogSlider.vue";
+  import ContactForm from "../components/Contact-form.vue";
+  import HeroSlider from "../components/Hero-slider.vue";
+  import OurFocusSlider from "../components/OurFocusSlider.vue";
+  import Testimonials from "../components/TestimonialSlider.vue";
+  import Blog from "../components/BlogSlider.vue";
 
-export default {
-  Name: "The Whiteheadlaw",
-  components: {
-    ContactForm,
-    HeroSlider,
-    OurFocusSlider,
-    Testimonials,
-    Blog,
-  },
-};
+  export default {
+    Name: "The Whiteheadlaw",
+    data() {
+      return {
+        about_contact_button: "#contact",
+      };
+    },
+    components: {
+      ContactForm,
+      HeroSlider,
+      OurFocusSlider,
+      Testimonials,
+      Blog,
+    },
+  };
 </script>
 
 <template>
@@ -96,7 +101,9 @@ export default {
             <button>&nbsp;</button>
 
             <button>
-              <a class="about-btn-link" href="#contact">contact us</a>
+              <a class="about-btn-link" :href="about_contact_button"
+                >contact us</a
+              >
             </button>
           </div>
         </div>
@@ -117,8 +124,10 @@ export default {
           </p>
         </div>
         <div class="idaho-btn">
-          <button>&nbsp;</button>
-          <button class="w-hover">contact us</button>
+          <button type="button">&nbsp;</button>
+          <button type="button" class="w-hover">
+            <a :href="about_contact_button">contact us</a>
+          </button>
         </div>
       </div>
       <div class="idaho-row-2">
@@ -255,5 +264,5 @@ export default {
   </div>
 
   <!-- Our Blog -->
-  <Blog />
+  <!-- <Blog /> -->
 </template>

@@ -16,9 +16,9 @@
             <!-- <router-link :to="{}">About Us</router-link> -->
             <a href="#about">About Us</a>
           </li>
-          <li>
+          <!-- <li>
             <router-link :to="{}">Videos</router-link>
-          </li>
+          </li> -->
           <li>
             <!-- <router-link :to="{}">Testimonials</router-link> -->
             <a href="#testimonial">Testimonials</a>

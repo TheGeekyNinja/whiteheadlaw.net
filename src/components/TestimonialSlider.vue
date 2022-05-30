@@ -7,7 +7,7 @@
           :slidesPerView="1"
           :spaceBetween="50"
           :autoplay="{
-            delay: 5000,
+            delay: 3000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }"
@@ -247,27 +247,27 @@
 </template>
 
 <script lang="ts">
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from "swiper/vue";
-// Import Swiper styles
-import "swiper/css";
+  // Import Swiper Vue.js components
+  import { Swiper, SwiperSlide } from "swiper/vue";
+  // Import Swiper styles
+  import "swiper/css";
 
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-// import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
-import { defineComponent } from "vue";
+  import "swiper/css/pagination";
+  import "swiper/css/navigation";
+  // import required modules
+  import { Autoplay, Pagination, Navigation } from "swiper";
+  import { defineComponent } from "vue";
 
-export default defineComponent({
-  name: " Testimonials",
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    return {
-      modules: [Autoplay, Pagination, Navigation],
-    };
-  },
-});
+  export default defineComponent({
+    name: " Testimonials",
+    components: {
+      Swiper,
+      SwiperSlide,
+    },
+    setup() {
+      return {
+        modules: [Autoplay, Pagination, Navigation],
+      };
+    },
+  });
 </script>
