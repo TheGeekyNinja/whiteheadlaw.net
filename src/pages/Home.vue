@@ -86,16 +86,6 @@
               personal injury actions for the state of Idaho. We practice
               personal injury in the State of Montana as well as Idaho.
             </p>
-            <p>
-              We believe in providing a direct, honest approach in evaluating
-              your workers compensation case. We provide caring support through
-              our knowledgeable legal team, which is dedicated to providing
-              processional legal representation to victims of serious on-the-job
-              injuries and other actions caused by the negligence of
-              individuals. Our firm practices Idaho Workers Compensation Law and
-              personal injury actions for the state of Idaho. We practice
-              personal injury in the State of Montana as well as Idaho.
-            </p>
           </div>
           <div class="about-us-btn">
             <button>&nbsp;</button>
