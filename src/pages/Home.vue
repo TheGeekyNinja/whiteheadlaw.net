@@ -82,9 +82,22 @@
               our knowledgeable legal team, which is dedicated to providing
               processional legal representation to victims of serious on-the-job
               injuries and other actions caused by the negligence of
-              individuals. Our firm practices Idaho Workers Compensation Law and
-              personal injury actions for the state of Idaho. We practice
-              personal injury in the State of Montana as well as Idaho.
+              individuals.
+            </p>
+            <p>
+              Attorney Richard Whitehead has over 40 years’ experience in the
+              field and has achieved certification as a Lifetime Idaho Workers
+              Compensation Specialist through the Idaho Trial Lawyers
+              Association. Richard Whitehead’s knowledgeable paralegal,
+              Christina Sturgill, has been certified as a Certified Idaho
+              Workers’ Compensation Specialist Advanced Level since 2013 and
+              received her Associates of Applied Science with a major in
+              paralegal from North Idaho College.
+            </p>
+            <p>
+              Our firm practices Idaho Workers Compensation Law and personal
+              injury actions for the state of Idaho. We practice personal injury
+              in the State of Montana as well as Idaho.
             </p>
           </div>
           <div class="about-us-btn">
@@ -108,9 +121,9 @@
         <div class="idaho-title-desc">
           <h2>Idaho Workers Compensation</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            If you are injured on the job in the state of Idaho, the Idaho
+            workers’ compensation law ideally is supposed to provide you “sure
+            and certain relief”. It doesn’t always work that way.
           </p>
         </div>
         <div class="idaho-btn">

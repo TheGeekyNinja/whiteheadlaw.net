@@ -3,6 +3,7 @@ import Home from "../pages/Home.vue";
 import About from "../pages/About.vue";
 import Testimonial from "../pages/Testimonial.vue";
 import PageNotFound from "../components/PageNotFound.vue";
+import Video from "../pages/Video.vue";
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: "/:pathMatch(.*)*",
     name: "not-found",
     component: PageNotFound,
+  },
+  {
+    path: "/video",
+    name: "Video",
+    component: Video,
   },
 ];
 
