@@ -14,18 +14,18 @@
         <ul v-show="!mobile" class="main-nav">
           <li>
             <!-- <router-link :to="{}">About Us</router-link> -->
-            <a href="#about">About Us</a>
+            <a href="/#about">About Us</a>
           </li>
-          <!-- <li>
-            <router-link :to="{}">Videos</router-link>
-          </li> -->
+          <li>
+            <router-link :to="{ name: 'Video' }">Videos</router-link>
+          </li>
           <li>
             <!-- <router-link :to="{}">Testimonials</router-link> -->
-            <a href="#testimonial">Testimonials</a>
+            <a href="/#testimonial">Testimonials</a>
           </li>
           <li>
             <!-- <router-link :to="{}">Contact Us</router-link> -->
-            <a href="#contact">Contact Us</a>
+            <a href="/#contact">Contact Us</a>
           </li>
         </ul>
         <div class="nav-icon">
@@ -58,37 +58,37 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+  import { defineComponent } from "vue";
 
-export default defineComponent({
-  name: "Header",
-  data() {
-    return {
-      scrollNav: null,
-      mobile: false,
-      mobileNav: false,
-      windowsWidth: 0,
-    };
-  },
-  created() {
-    window.addEventListener("resize", this.checkScreen);
-    this.checkScreen();
-  },
-  methods: {
-    toToggleMobileNav() {
-      this.mobileNav = !this.mobileNav;
+  export default defineComponent({
+    name: "Header",
+    data() {
+      return {
+        scrollNav: null,
+        mobile: false,
+        mobileNav: false,
+        windowsWidth: 0,
+      };
     },
+    created() {
+      window.addEventListener("resize", this.checkScreen);
+      this.checkScreen();
+    },
+    methods: {
+      toToggleMobileNav() {
+        this.mobileNav = !this.mobileNav;
+      },
 
-    checkScreen() {
-      this.windowsWidth = window.innerWidth;
-      if (this.windowsWidth <= 767) {
-        this.mobile = true;
+      checkScreen() {
+        this.windowsWidth = window.innerWidth;
+        if (this.windowsWidth <= 767) {
+          this.mobile = true;
+          return;
+        }
+        this.mobile = false;
+        this.mobileNav = false;
         return;
-      }
-      this.mobile = false;
-      this.mobileNav = false;
-      return;
+      },
     },
-  },
-});
+  });
 </script>
