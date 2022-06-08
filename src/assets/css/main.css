@@ -317,6 +317,18 @@ main {
   height: 5px;
 }
 
+.our-focus-lists {
+  list-style: disc;
+  text-align: left;
+}
+
+.our-focus-lists li {
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  padding: 7px 0;
+  font-style: italic;
+}
+
 /* About us section */
 
 .about-us {
@@ -662,9 +674,17 @@ span[role="alert"] {
 }
 
 /* Our Client Review Section */
+.our-client-review {
+  text-align: center;
+}
+.our-client-review .cards {
+  margin-top: 50px;
+}
 
 .our-client-review h1 {
   font-size: 60px;
+  line-height: 60px;
+  padding: 0;
 }
 
 .col-img.our-client-review-img img {
@@ -675,6 +695,21 @@ span[role="alert"] {
   font-weight: 400;
   line-height: 25px;
   color: var(--secondary-color);
+}
+
+.fa-solid.fa-star {
+  color: var(--btn-color);
+}
+
+.review-link {
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+
+.review-link:hover {
+  color: var(--btn-color);
 }
 
 /* Have Pre-existing Conditions Section */
@@ -1377,4 +1412,24 @@ div.icon {
   height: 5px;
   width: 80px;
   background: var(--secondary-color);
+}
+
+/* Video Page */
+.player {
+  width: 60%;
+}
+
+.player-sizer {
+  width: 100%;
+  padding-top: 56.25%;
+  outline: 1px solid red;
+  position: relative;
+}
+
+video {
+  width: 100%;
+  height: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
