@@ -317,6 +317,18 @@ main {
   height: 5px;
 }
 
+.our-focus-lists {
+  list-style: disc;
+  text-align: left;
+}
+
+.our-focus-lists li {
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  padding: 7px 0;
+  font-style: italic;
+}
+
 /* About us section */
 
 .about-us {
@@ -662,9 +674,17 @@ span[role="alert"] {
 }
 
 /* Our Client Review Section */
+.our-client-review {
+  text-align: center;
+}
+.our-client-review .cards {
+  margin-top: 50px;
+}
 
 .our-client-review h1 {
   font-size: 60px;
+  line-height: 60px;
+  padding: 0;
 }
 
 .col-img.our-client-review-img img {
@@ -675,6 +695,21 @@ span[role="alert"] {
   font-weight: 400;
   line-height: 25px;
   color: var(--secondary-color);
+}
+
+.fa-solid.fa-star {
+  color: var(--btn-color);
+}
+
+.review-link {
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+
+.review-link:hover {
+  color: var(--btn-color);
 }
 
 /* Have Pre-existing Conditions Section */
@@ -988,6 +1023,39 @@ div.icon {
 }
 .error-button:hover {
   transform: scale(1.1);
+}
+
+/* Video Page */
+
+.video-heading {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.player-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 80px 0;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+}
+.player {
+  width: 45%;
+}
+
+.player-sizer {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* Mobile CSS */
@@ -1328,6 +1396,14 @@ div.icon {
   }
   .bottom-most {
     text-align: center;
+  }
+  /* video page */
+  .player {
+    width: 100%;
+  }
+  .player-container {
+    flex-direction: column;
+    gap: 50px;
   }
 }
 

@@ -8,18 +8,18 @@
             <ul class="main-nav footer-menu">
               <li>
                 <!-- <router-link to="/about">About Us</router-link> -->
-                <a href="#about">About Us</a>
+                <a href="/#about">About Us</a>
               </li>
-              <!-- <li>
-                <router-link to="#">Videos</router-link>
-              </li> -->
+              <li>
+                <router-link :to="{ name: 'Video' }">Videos</router-link>
+              </li>
               <li>
                 <!-- <router-link to="/testimonials">Testimonials</router-link> -->
-                <a href="#testimonial">Testimonials</a>
+                <a href="/#testimonial">Testimonials</a>
               </li>
               <li>
                 <!-- <router-link to="/contact-us">Contact Us</router-link> -->
-                <a href="#contact">Contact Us</a>
+                <a href="/#contact">Contact Us</a>
               </li>
             </ul>
           </div>
