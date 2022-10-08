@@ -115,7 +115,7 @@
   </div>
 
   <!-- Idaho Workers Section -->
-  <div class="idaho-workers-section">
+  <!-- <div class="idaho-workers-section">
     <div class="container">
       <div class="idaho-row-1">
         <div class="idaho-title-desc">
@@ -169,12 +169,12 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Our Client Reviews Section -->
   <Testimonials />
 
   <!-- Have Pre-existing Conditions Section -->
-  <div class="container">
+  <!-- <div class="container">
     <div class="pre-exixting-conditions-section">
       <div class="pre-ex-cond-img">
         <img src="../assets/images/HavePre-existingConditions.png" alt="" />
@@ -198,7 +198,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Form Section -->
   <div class="container">
     <div id="contact" class="drop-us-form">

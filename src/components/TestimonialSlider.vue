@@ -179,31 +179,6 @@
               </div>
             </div></swiper-slide
           >
-          <swiper-slide>
-            <div class="col">
-              <div class="col-img our-client-review-img">
-                <img src="@/assets/images/John-3.png" alt="" srcset="" />
-              </div>
-              <div class="col-title col-3 our-client-review-desc">
-                <h2>anonymous</h2>
-                <p>Client</p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <div class="col-desc">
-                <p>
-                  Richard is very skilled, he lets you know what is going on the
-                  only time I had a hard time getting a response is when he
-                  hired a new assistant, after she started things were great as
-                  they were before. He listens very well and cares about your
-                  case..
-                </p>
-              </div>
-            </div></swiper-slide
-          >
         </swiper>
       </div>
       <div class="hr-line"><hr /></div>
