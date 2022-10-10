@@ -220,21 +220,12 @@
               other victims of negligence.
             </p>
             <p>
-              Attorney Richard Whitehead has over 40 years’ experience in the
-              field and has achieved certification as a Lifetime Idaho Workers
-              Compensation Specialist through the Idaho Trial Lawyers
-              Association. Richard Whitehead’s knowledgeable paralegal,
-              Christina Sturgill, has been certified as a Certified Idaho
-              Workers’ Compensation Specialist Advanced Level since 2013 and
-              received her Associates of Applied Science with a major in
-              paralegal from North Idaho College.
-
               Attorney Richard Whitehead has over 41 years of experience in the
               field of injury law and has achieved certification as a Lifetime Idaho
               Workers' Compensation Specialist through the Idaho Trial Lawyers Association.
             </p>
             <p>
-              Richard Whitehead’s knowledgeable paralegal, Christina Sturgill, is a
+              Richard Whitehead's knowledgeable paralegal, Christina Sturgill, is a
               Certified Idaho Workers' Compensation Specialist Advanced Level and has
               held this certification since 2013. She received her Associates of Applied
               Science with a major in paralegal from North Idaho College. She has three
