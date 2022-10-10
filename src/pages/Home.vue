@@ -213,35 +213,36 @@
           </div>
           <div class="about-us-desc">
             <p>
-              We believe in providing a direct, honest approach in evaluating
-              your workers compensation case. We provide caring support through
-              our knowledgeable legal team, which is dedicated to providing
-              processional legal representation to victims of serious on-the-job
-              injuries and other actions caused by the negligence of
-              individuals.
+              We believe in providing a direct and aggressive approach in evaluating
+              your workers compensation case. We provide caring support through our
+              knowledgeable legal team, which is dedicated to providing professional
+              legal representation to victims of serious on the job injuries and
+              other victims of negligence.
             </p>
             <p>
-              Attorney Richard Whitehead has over 40 years’ experience in the
-              field and has achieved certification as a Lifetime Idaho Workers
-              Compensation Specialist through the Idaho Trial Lawyers
-              Association. Richard Whitehead’s knowledgeable paralegal,
-              Christina Sturgill, has been certified as a Certified Idaho
-              Workers’ Compensation Specialist Advanced Level since 2013 and
-              received her Associates of Applied Science with a major in
-              paralegal from North Idaho College.
+              Attorney Richard Whitehead has over 41 years of experience in the
+              field of injury law and has achieved certification as a Lifetime Idaho
+              Workers' Compensation Specialist through the Idaho Trial Lawyers Association.
             </p>
             <p>
-              Our firm practices Idaho Workers Compensation Law and personal
-              injury actions for the state of Idaho. We practice personal injury
-              in the State of Montana as well as Idaho.
+              Richard Whitehead's knowledgeable paralegal, Christina Sturgill, is a
+              Certified Idaho Workers' Compensation Specialist Advanced Level and has
+              held this certification since 2013. She received her Associates of Applied
+              Science with a major in paralegal from North Idaho College. She has three
+              amazing children who she loves spending time with in the great
+              outdoors of Idaho and Montana.
+            </p>
+            <p>
+              Our firm practices Idaho Workers Compensation Law, personal injury law,
+              and wrongful death actions in Idaho and Montana.
             </p>
           </div>
           <div class="about-us-btn">
             <button>&nbsp;</button>
 
             <button>
-              <a class="about-btn-link" :href="about_contact_button"
-                >contact us</a
+              <a class="about-btn-link" href="/about"
+                >Read More</a
               >
             </button>
           </div>
