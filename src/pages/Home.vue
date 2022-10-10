@@ -23,6 +23,23 @@
     },
   };
 </script>
+<style type="text/css">
+
+.free-consultations-section {
+  padding: 80px 0 50px 0;
+}
+.free-consultations-section p {
+  font-size:25px;
+  font-family: var(--secondary-font);
+}
+
+.free-consultations-section h1 {
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 40px;
+}
+
+</style>
 
 <template>
   <!-- <div> -->
@@ -60,6 +77,18 @@
     <HeroSlider />
   </div>
 
+  <!-- Free Consultations -->
+  <div class="container">
+    <div class="free-consultations-section">
+      <h1>FREE CONSULTATIONS</h1>
+      <p>
+        Our office works on a contingency fee basis which means that we do not get
+        paid unless we are able to win you benefits. Given this we offer a one-hour
+        free consultation for you to ask questions and to allow us to evaluate your claim.
+      </p>
+
+    </div>
+  </div>
   <!-- Focus Section -->
   <div class="container">
     <div class="our-focus-section">
