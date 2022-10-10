@@ -223,7 +223,7 @@ main {
 /* Our focus Section */
 
 .our-focus-section {
-  padding: 80px 0;
+  padding: 80px 0 50px 0;
 }
 
 .our-focus-section h1 {
@@ -236,6 +236,9 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+}
+.our-focus-section .cards .col.foc{
+  max-width: 30%;
 }
 
 .cards .col .col-img {
@@ -266,10 +269,10 @@ main {
   padding-right: 80px;
 }
 
-.col-title h2:nth-child(2) {
+/* .col-title h2:nth-child(2) {
   padding-left: 50px;
   padding-right: 50px;
-}
+} */
 
 .col-desc p {
   font-family: var(--secondary-font);
@@ -279,7 +282,8 @@ main {
   text-align: center;
 }
 
-.hr-line hr {
+
+.our-focus-section .hr-line hr {
   border: none;
   height: 2px;
   background-color: var(--btn-color);
@@ -289,7 +293,9 @@ main {
   margin-right: auto;
   margin-top: -100px;
 }
-
+.our-focus-section .hr-line.foc hr{
+  margin-top: 50px;
+} 
 .three-line {
   display: flex;
   justify-content: center;
@@ -297,6 +303,7 @@ main {
   gap: 10px;
   width: 20%;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 .line-one,
@@ -329,6 +336,10 @@ main {
   font-style: italic;
 }
 
+.learn-more{
+  margin-top: 50px;
+  text-align: center;
+}
 /* About us section */
 
 .about-us {
@@ -400,6 +411,11 @@ main {
 .about-btn-link {
   color: var(--white);
   text-decoration: none;
+}
+/* About us page */
+.about-us-page{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* Contact-form */
@@ -1405,6 +1421,22 @@ iframe {
     flex-direction: column;
     gap: 50px;
   }
+
+  /* Our Focus Section  Mobile */
+
+  .our-focus-section .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .our-focus-section .cards .col.foc{
+    max-width: 100%;
+  }
+  .col-desc{
+    max-width: 85%;
+    margin: 0 auto;
+  }
 }
 
 /* Swiper JS Custom CSS */
@@ -1454,3 +1486,7 @@ iframe {
   width: 80px;
   background: var(--secondary-color);
 }
+
+
+
+
