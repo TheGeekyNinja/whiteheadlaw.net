@@ -10,6 +10,8 @@
     data() {
       return {
         about_contact_button: "#contact",
+        learn_more_comp: "/video",
+        learn_more_special: "/video"
       };
     },
     components: {
@@ -21,6 +23,23 @@
     },
   };
 </script>
+<style type="text/css">
+
+.free-consultations-section {
+  padding: 80px 0 50px 0;
+}
+.free-consultations-section p {
+  font-size:25px;
+  font-family: var(--secondary-font);
+}
+
+.free-consultations-section h1 {
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 40px;
+}
+
+</style>
 
 <template>
   <!-- <div> -->
@@ -58,8 +77,125 @@
     <HeroSlider />
   </div>
 
+  <!-- Free Consultations -->
+  <div class="container">
+    <div class="free-consultations-section">
+      <h1>FREE CONSULTATIONS</h1>
+      <p>
+        Our office works on a contingency fee basis which means that we do not get
+        paid unless we are able to win you benefits. Given this we offer a one-hour
+        free consultation for you to ask questions and to allow us to evaluate your claim.
+      </p>
+
+    </div>
+  </div>
   <!-- Focus Section -->
-  <OurFocusSlider />
+  <div class="container">
+    <div class="our-focus-section">
+      <h1>OUR FOCUS</h1>
+       <div class="cards">
+       
+          <div class="col foc">
+            <div class="col-img">
+              <img src="../assets/images/family-crest.png" alt="" srcset="" />
+            </div>
+            <div class="col-title col-1">
+              <h2>Workman&apos;s Compensation</h2>
+            </div>
+            <div class="col-desc">
+              <ul class="our-focus-lists">
+                <li>
+                  What are your benefits under Idaho Workers Compensation?
+                </li>
+                <li>
+                  Are you tired of dealing with the workers’ compensation
+                  adjuster?
+                </li>
+                <li>
+                  Have they denied you medical treatment you believe you are
+                  entitled to?
+                </li>
+                <li>Have your benefits been stopped?</li>
+                <li>Are you getting everything you are entitled to?</li>
+              </ul>
+            </div>
+            <!-- <div class="about-us-btn learn-more">
+            <button>&nbsp;</button>
+
+            <button>
+              <a class="about-btn-link" :href="learn_more_comp"
+                >LEARN MORE</a
+              >
+            </button>
+          </div> -->
+          </div>
+
+       <div class="col foc">
+            <div class="col-img">
+              <img src="../assets/images/badges-02.png" alt="" srcset="" />
+            </div>
+            <div class="col-title col-2"><h2>Legal Representation</h2></div>
+            <div class="col-desc">
+              <p>
+                Richard Whitehead with his over 40 years of experiencing in the
+                field of Idaho Workers’ Compensation, Idaho Special Indemnity
+                Fund cases, and personal injury accidents believes in an honest
+                upfront approach. His legal team includes a very knowledgeable
+                paralegal, Christina Sturgill, who has been with him for the
+                last 10 years and who has been a certified Idaho Workers’
+                Compensation Specialist at the advanced level since April of
+                2013. Richard Whitehead and Christina Sturgill work together to
+                obtain fair settlements in a timely manner under the Idaho Laws.
+                We work together in educate our clients in order for them to
+                make an informed decision about their case.
+              </p>
+            </div>
+          </div>
+        
+          <div class="col foc">
+            <div class="col-img">
+              <img src="../assets/images/justice.png" alt="" srcset="" />
+            </div>
+            <div class="col-title col-3">
+              <h2>Special Indemnity Fund for the Permanently Disabled</h2>
+            </div>
+            <div class="col-desc">
+              <p>
+                Idaho Special Indemnity Fund is set up to pay Idaho Workers’
+                Compensation workers that have pre-existing injuries and then
+                suffer an additional accident where the injuries combined with
+                their pre-existing injuries render then totally and permanently
+                disabled and unable to return to work in any fashion. Do you
+                have prior work or non-work-related medical injuries and now
+                given a new injury are unsure if you will be able to return to
+                work. You may have a case for lifetime benefits through the
+                Idaho Special Indemnity Fund. Call our office for a free
+                consultation to learn more. .
+              </p>
+            </div>
+            <!-- <div class="about-us-btn learn-more">
+            <button>&nbsp;</button>
+
+            <button>
+              <a class="about-btn-link" :href="learn_more_special"
+                >LEARN MORE</a
+              >
+            </button>
+          </div> -->
+          </div>
+        </div>
+       
+      <!-- <div class="hr-line foc"><hr /></div>
+      <div class="three-line">
+          <div class="line-one"></div>
+          <div class="line-two"></div>
+          <div class="line-three"></div>
+        </div> -->
+    </div>
+  </div>
+
+
+  <!-- <OurFocusSlider /> -->
   <!-- About-us Page -->
   <div id="about" class="about-us">
     <div class="container">
@@ -115,7 +251,7 @@
   </div>
 
   <!-- Idaho Workers Section -->
-  <div class="idaho-workers-section">
+  <!-- <div class="idaho-workers-section">
     <div class="container">
       <div class="idaho-row-1">
         <div class="idaho-title-desc">
@@ -169,12 +305,12 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Our Client Reviews Section -->
   <Testimonials />
 
   <!-- Have Pre-existing Conditions Section -->
-  <div class="container">
+  <!-- <div class="container">
     <div class="pre-exixting-conditions-section">
       <div class="pre-ex-cond-img">
         <img src="../assets/images/HavePre-existingConditions.png" alt="" />
@@ -198,7 +334,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Form Section -->
   <div class="container">
     <div id="contact" class="drop-us-form">

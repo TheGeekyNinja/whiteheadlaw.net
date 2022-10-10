@@ -14,11 +14,11 @@
         <ul v-show="!mobile" class="main-nav">
           <li>
             <!-- <router-link :to="{}">About Us</router-link> -->
-            <a href="/#about">About Us</a>
+            <a href="/about">About Us</a>
           </li>
-          <li>
+          <!-- <li>
             <router-link :to="{ name: 'Video' }">Videos</router-link>
-          </li>
+          </li> -->
           <li>
             <!-- <router-link :to="{}">Testimonials</router-link> -->
             <a href="/#testimonial">Testimonials</a>
@@ -41,9 +41,9 @@
             <li>
               <router-link :to="{}">About Us</router-link>
             </li>
-            <li>
+            <!-- <li>
               <router-link :to="{}">Videos</router-link>
-            </li>
+            </li> -->
             <li>
               <router-link :to="{}">Testimonials</router-link>
             </li>

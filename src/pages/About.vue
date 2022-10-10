@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <div>
-      <main class="container">
-        <h2>This is a about page template</h2>
-      </main>
+  <div class="container">
+    <div class="about-us-page">
+      <h1>About us page </h1>
+
     </div>
+    
   </div>
 </template>
