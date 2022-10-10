@@ -241,8 +241,8 @@
             <button>&nbsp;</button>
 
             <button>
-              <a class="about-btn-link" :href="about_contact_button"
-                >contact us</a
+              <a class="about-btn-link" href="/about"
+                >Read More</a
               >
             </button>
           </div>
