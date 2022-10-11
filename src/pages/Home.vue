@@ -10,7 +10,7 @@
     data() {
       return {
         about_contact_button: "#contact",
-        learn_more_comp: "/worksman",
+        learn_more_comp: "/workmanscompensation",
         learn_more_special: "/indemnityfund",
         call_us_now: "tel:2087655291",
         email_us_now: "mailto:Info@whiteheadlaw.net",
@@ -123,7 +123,7 @@
             <ul class="our-focus-lists">
               <li>What are your benefits under Idaho Workers Compensation?</li>
               <li>
-                Are you tired of dealing with the workers’ compensation
+                Are you tired of dealing with the workers' compensation
                 adjuster?
               </li>
               <li>
