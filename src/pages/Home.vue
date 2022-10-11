@@ -10,7 +10,7 @@
     data() {
       return {
         about_contact_button: "#contact",
-        learn_more_comp: "/worksman",
+        learn_more_comp: "/workmanscompensation",
         learn_more_special: "/indemnityfund",
         call_us_now: "tel:2087655291",
         email_us_now: "mailto:Info@whiteheadlaw.net",
@@ -123,7 +123,7 @@
             <ul class="our-focus-lists">
               <li>What are your benefits under Idaho Workers Compensation?</li>
               <li>
-                Are you tired of dealing with the workers’ compensation
+                Are you tired of dealing with the workers' compensation
                 adjuster?
               </li>
               <li>
@@ -158,7 +158,7 @@
               against insurance companies and corporate America.
             </p>
             <p>
-              Mr. Whitehead’s practice is limited to a contingency fee
+              Mr. Whitehead's practice is limited to a contingency fee
               representation. This means no fee unless a recovery is received.
             </p>
             <p>
@@ -178,7 +178,7 @@
           </div>
           <div class="col-desc">
             <p>
-              Idaho Special Indemnity Fund is set up to pay Idaho Workers’
+              Idaho Special Indemnity Fund is set up to pay Idaho Workers'
               Compensation workers that have
               <strong> <u> pre-existing </u></strong> injuries and then suffer
               an <strong><u>additional accident</u></strong> where the injuries
@@ -239,12 +239,12 @@
             <p>
               Attorney Richard Whitehead has over 41 years of experience in the
               field of injury law and has achieved certification as a Lifetime
-              Idaho Workers’ Compensation Specialist through the Idaho Trial
+              Idaho Workers' Compensation Specialist through the Idaho Trial
               Lawyers Association.
             </p>
             <p>
-              Richard Whitehead’s knowledgeable paralegal, Christina Sturgill,
-              is a Certified Idaho Workers’ Compensation Specialist Advanced
+              Richard Whitehead's knowledgeable paralegal, Christina Sturgill,
+              is a Certified Idaho Workers' Compensation Specialist Advanced
               Level and has held this certification since 2013. She received her
               Associates of Applied Science with a major in paralegal from North
               Idaho College. She has three amazing children who she loves

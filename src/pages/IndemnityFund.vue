@@ -17,8 +17,19 @@
           Richard Whitehead who has 41 years of experience practicing injury
           law.
         </p>
+        <p>Todo: Design updates</p>
+        <videoPlayer src="https://player.vimeo.com/video/63482032" />
+        <videoPlayer src="https://player.vimeo.com/video/63370198" />
       </div>
     </div>
   </div>
 </template>
-m
+
+<script lang="ts">
+import videoPlayer from "../components/videoPlayer.vue";
+export default {
+  components: {
+    videoPlayer: videoPlayer,
+  }
+}
+</script>
