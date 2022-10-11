@@ -8,7 +8,19 @@
           on how he proceeds with an Idaho Workers Compensation case along with
           what you may be entitled to as an injured worker.
         </p>
+        <p>Todo: Design updates</p>
+        <videoPlayer src="https://player.vimeo.com/video/63371403" />
+        <videoPlayer src="https://player.vimeo.com/video/63372184" />
       </div>
     </div>
   </div>
 </template>
+
+<script lang="ts">
+import videoPlayer from "../components/videoPlayer.vue";
+export default {
+  components: {
+    videoPlayer: videoPlayer,
+  }
+}
+</script>
