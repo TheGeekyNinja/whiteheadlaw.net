@@ -4,6 +4,8 @@ import About from "../pages/About.vue";
 import Testimonial from "../pages/Testimonial.vue";
 import PageNotFound from "../components/PageNotFound.vue";
 import Video from "../pages/Video.vue";
+import WorksMan from "../pages/WorksMan.vue";
+import IndemnityFund from "../pages/IndemnityFund.vue";
 
 const routes = [
   {
@@ -31,6 +33,16 @@ const routes = [
     path: "/video",
     name: "Video",
     component: Video,
+  },
+  {
+    path: "/worksman",
+    name: "WorksMan",
+    component: WorksMan,
+  },
+  {
+    path: "/indemnityfund",
+    name: "IndemnityFund",
+    component: IndemnityFund,
   },
 ];
 

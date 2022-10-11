@@ -10,8 +10,11 @@
     data() {
       return {
         about_contact_button: "#contact",
-        learn_more_comp: "/video",
-        learn_more_special: "/video"
+        learn_more_comp: "/worksman",
+        learn_more_special: "/indemnityfund",
+        call_us_now: "tel:2087655291",
+        email_us_now: "mailto:Info@whiteheadlaw.net",
+        read_more: "/about",
       };
     },
     components: {
@@ -77,103 +80,118 @@
     <HeroSlider />
   </div>
 
-  <!-- Free Consultations -->
   <div class="container">
-    <div class="free-consultations-section">
-      <h1>FREE CONSULTATIONS</h1>
+    <h1 class="free-consultation">FREE CONSULTATION</h1>
+    <div class="free-con-desc">
       <p>
-        Our office works on a contingency fee basis which means that we do not get
-        paid unless we are able to win you benefits. Given this we offer a one-hour
-        free consultation for you to ask questions and to allow us to evaluate your claim.
+        Our office works on a contingency fee basis which means that we do not
+        get paid unless we are able to win you benefits. Given this we offer a
+        one-hour free consultation for you to ask questions and to allow us to
+        evaluate your claim.
       </p>
+    </div>
+    <div class="free-con-buttons">
+      <div class="about-us-btn learn-more">
+        <button>&nbsp;</button>
 
+        <button>
+          <a class="about-btn-link" :href="call_us_now">CALL US NOW</a>
+        </button>
+      </div>
+      <div class="about-us-btn learn-more">
+        <button>&nbsp;</button>
+
+        <button>
+          <a class="about-btn-link" :href="email_us_now">EMAIL US NOW</a>
+        </button>
+      </div>
     </div>
   </div>
   <!-- Focus Section -->
   <div class="container">
     <div class="our-focus-section">
       <h1>OUR FOCUS</h1>
-       <div class="cards">
-       
-          <div class="col foc">
-            <div class="col-img">
-              <img src="../assets/images/family-crest.png" alt="" srcset="" />
-            </div>
-            <div class="col-title col-1">
-              <h2>Workman&apos;s Compensation</h2>
-            </div>
-            <div class="col-desc">
-              <ul class="our-focus-lists">
-                <li>
-                  What are your benefits under Idaho Workers Compensation?
-                </li>
-                <li>
-                  Are you tired of dealing with the workers’ compensation
-                  adjuster?
-                </li>
-                <li>
-                  Have they denied you medical treatment you believe you are
-                  entitled to?
-                </li>
-                <li>Have your benefits been stopped?</li>
-                <li>Are you getting everything you are entitled to?</li>
-              </ul>
-            </div>
-            <!-- <div class="about-us-btn learn-more">
+      <div class="cards">
+        <div class="col foc">
+          <div class="col-img">
+            <img src="../assets/images/family-crest.png" alt="" srcset="" />
+          </div>
+          <div class="col-title col-1">
+            <h2>Workman&apos;s Compensation</h2>
+          </div>
+          <div class="col-desc">
+            <ul class="our-focus-lists">
+              <li>What are your benefits under Idaho Workers Compensation?</li>
+              <li>
+                Are you tired of dealing with the workers’ compensation
+                adjuster?
+              </li>
+              <li>
+                Have they denied you medical treatment you believe you are
+                entitled to?
+              </li>
+              <li>Have your benefits been stopped?</li>
+              <li>Are you getting everything you are entitled to?</li>
+            </ul>
+          </div>
+          <div class="about-us-btn learn-more">
             <button>&nbsp;</button>
 
             <button>
-              <a class="about-btn-link" :href="learn_more_comp"
-                >LEARN MORE</a
-              >
+              <a class="about-btn-link" :href="learn_more_comp">LEARN MORE</a>
             </button>
-          </div> -->
           </div>
+        </div>
 
-       <div class="col foc">
-            <div class="col-img">
-              <img src="../assets/images/badges-02.png" alt="" srcset="" />
-            </div>
-            <div class="col-title col-2"><h2>Legal Representation</h2></div>
-            <div class="col-desc">
-              <p>
-                Richard Whitehead with his over 40 years of experiencing in the
-                field of Idaho Workers’ Compensation, Idaho Special Indemnity
-                Fund cases, and personal injury accidents believes in an honest
-                upfront approach. His legal team includes a very knowledgeable
-                paralegal, Christina Sturgill, who has been with him for the
-                last 10 years and who has been a certified Idaho Workers’
-                Compensation Specialist at the advanced level since April of
-                2013. Richard Whitehead and Christina Sturgill work together to
-                obtain fair settlements in a timely manner under the Idaho Laws.
-                We work together in educate our clients in order for them to
-                make an informed decision about their case.
-              </p>
-            </div>
+        <div class="col foc">
+          <div class="col-img">
+            <img src="../assets/images/badges-02.png" alt="" srcset="" />
           </div>
-        
-          <div class="col foc">
-            <div class="col-img">
-              <img src="../assets/images/justice.png" alt="" srcset="" />
-            </div>
-            <div class="col-title col-3">
-              <h2>Special Indemnity Fund for the Permanently Disabled</h2>
-            </div>
-            <div class="col-desc">
-              <p>
-                Idaho Special Indemnity Fund is set up to pay Idaho Workers’
-                Compensation workers that have pre-existing injuries and then
-                suffer an additional accident where the injuries combined with
-                their pre-existing injuries render then totally and permanently
-                disabled and unable to return to work in any fashion. Do you
-                have prior work or non-work-related medical injuries and now
-                given a new injury are unsure if you will be able to return to
-                work. You may have a case for lifetime benefits through the
-                Idaho Special Indemnity Fund. Call our office for a free
-                consultation to learn more. .
-              </p>
-            </div>
-            <!-- <div class="about-us-btn learn-more">
+          <div class="col-title col-2">
+            <h2>Personal Injury / Wrongful Death</h2>
+          </div>
+          <div class="col-desc">
+            <p>
+              Whitehead Law Group has a proven track record in automobile
+              accidents, semi-truck accidents, propane gas explosions, and
+              wrongful death cases. This wealth of experience includes claims
+              against insurance companies and corporate America.
+            </p>
+            <p>
+              Mr. Whitehead’s practice is limited to a contingency fee
+              representation. This means no fee unless a recovery is received.
+            </p>
+            <p>
+              Mr. Whitehead is licensed in Idaho and has been since 1982,
+              Montana since 2001 and was a member of the Washington Bar until
+              recently.
+            </p>
+          </div>
+        </div>
+
+        <div class="col foc">
+          <div class="col-img">
+            <img src="../assets/images/justice.png" alt="" srcset="" />
+          </div>
+          <div class="col-title col-3">
+            <h2>Special Indemnity Fund for the Permanently Disabled</h2>
+          </div>
+          <div class="col-desc">
+            <p>
+              Idaho Special Indemnity Fund is set up to pay Idaho Workers’
+              Compensation workers that have
+              <strong> <u> pre-existing </u></strong> injuries and then suffer
+              an <strong><u>additional accident</u></strong> where the injuries
+              combined with their pre-existing injuries render then totally and
+              permanently disabled and
+              <strong> <u> unable to return to work in any fashion.</u></strong>
+              Do you have prior work or non-work-related medical injuries and
+              now given a new injury are unsure if you will be able to return to
+              work. You may have a case for lifetime benefits through the Idaho
+              Special Indemnity Fund.
+            </p>
+          </div>
+          <div class="about-us-btn learn-more">
             <button>&nbsp;</button>
 
             <button>
@@ -181,10 +199,10 @@
                 >LEARN MORE</a
               >
             </button>
-          </div> -->
           </div>
         </div>
-       
+      </div>
+
       <!-- <div class="hr-line foc"><hr /></div>
       <div class="three-line">
           <div class="line-one"></div>
@@ -193,7 +211,6 @@
         </div> -->
     </div>
   </div>
-
 
   <!-- <OurFocusSlider /> -->
   <!-- About-us Page -->
@@ -213,38 +230,47 @@
           </div>
           <div class="about-us-desc">
             <p>
-              We believe in providing a direct and aggressive approach in evaluating
-              your workers compensation case. We provide caring support through our
-              knowledgeable legal team, which is dedicated to providing professional
-              legal representation to victims of serious on the job injuries and
-              other victims of negligence.
+              We believe in providing a direct and aggressive approach in
+              evaluating your workers compensation case. We provide caring
+              support through our knowledgeable legal team, which is dedicated
+              to providing professional legal representation to victims of
+              serious on the job injuries and other victims of negligence.
             </p>
             <p>
               Attorney Richard Whitehead has over 41 years of experience in the
-              field of injury law and has achieved certification as a Lifetime Idaho
-              Workers' Compensation Specialist through the Idaho Trial Lawyers Association.
+              field of injury law and has achieved certification as a Lifetime
+              Idaho Workers’ Compensation Specialist through the Idaho Trial
+              Lawyers Association.
             </p>
             <p>
-              Richard Whitehead's knowledgeable paralegal, Christina Sturgill, is a
-              Certified Idaho Workers' Compensation Specialist Advanced Level and has
-              held this certification since 2013. She received her Associates of Applied
-              Science with a major in paralegal from North Idaho College. She has three
-              amazing children who she loves spending time with in the great
-              outdoors of Idaho and Montana.
+              Richard Whitehead’s knowledgeable paralegal, Christina Sturgill,
+              is a Certified Idaho Workers’ Compensation Specialist Advanced
+              Level and has held this certification since 2013. She received her
+              Associates of Applied Science with a major in paralegal from North
+              Idaho College. She has three amazing children who she loves
+              spending time with in the great outdoors of Idaho and Montana.
             </p>
             <p>
-              Our firm practices Idaho Workers Compensation Law, personal injury law,
-              and wrongful death actions in Idaho and Montana.
+              Our firm practices Idaho Workers Compensation Law, personal injury
+              law and wrongful death actions in Idaho and Montana.
             </p>
           </div>
-          <div class="about-us-btn">
-            <button>&nbsp;</button>
+          <div class="about-us-buttons">
+            <div class="about-us-btn">
+              <button>&nbsp;</button>
+              <button>
+                <a class="about-btn-link" :href="about_contact_button"
+                  >contact us</a
+                >
+              </button>
+            </div>
+            <div class="about-us-btn">
+              <button>&nbsp;</button>
 
-            <button>
-              <a class="about-btn-link" href="/about"
-                >Read More</a
-              >
-            </button>
+              <button>
+                <a class="about-btn-link" :href="read_more">READ MORE</a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
