@@ -120,18 +120,13 @@
           <div class="col-desc">
             <ul class="our-focus-lists">
               <li>What are your benefits under Idaho Workers Compensation?</li>
-              <li>
-                Are you tired of dealing with the workers' compensation
-                adjuster?
-              </li>
-              <li>
-                Have they denied you medical treatment you believe you are
-                entitled to?
-              </li>
+              <li>Are you tired of dealing with the workers' compensation adjuster?</li>
+              <li>Have they denied you medical treatment based upon an IME?</li>
               <li>Have your benefits been stopped?</li>
               <li>Are you getting everything you are entitled to?</li>
             </ul>
           </div>
+          <h4>Free consultation to learn more</h4>
           <div class="about-us-btn learn-more">
             <button>&nbsp;</button>
 
@@ -183,10 +178,10 @@
               combined with their pre-existing injuries render then totally and
               permanently disabled and
               <strong> <u> unable to return to work in any fashion.</u></strong>
-              Do you have prior work or non-work-related medical injuries and
+              If you have prior work or non-work-related medical injuries and
               now given a new injury are unsure if you will be able to return to
-              work. You may have a case for lifetime benefits through the Idaho
-              Special Indemnity Fund.
+              work, you may have a case for lifetime benefits through the Idaho
+              Special Indemnity Fund if you qualify. Call our office for a free consultation.
             </p>
           </div>
           <div class="about-us-btn learn-more">
