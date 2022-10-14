@@ -11,6 +11,7 @@
       return {
         about_contact_button: "#contact",
         learn_more_comp: "/workmanscompensation",
+        learn_more_death: "/wrongfuldeath",
         learn_more_special: "/indemnityfund",
         call_us_now: "tel:2087655291",
         email_us_now: "mailto:Info@whiteheadlaw.net",
@@ -160,6 +161,13 @@
               recently.
             </p>
           </div>
+          <div class="about-us-btn learn-more">
+            <button>&nbsp;</button>
+
+            <button>
+              <a class="about-btn-link" :href="learn_more_death">LEARN MORE</a>
+            </button>
+          </div>
         </div>
 
         <div class="col foc">
@@ -184,6 +192,7 @@
               Special Indemnity Fund if you qualify. Call our office for a free consultation.
             </p>
           </div>
+          <!--
           <div class="about-us-btn learn-more">
             <button>&nbsp;</button>
 
@@ -193,6 +202,7 @@
               >
             </button>
           </div>
+          -->
         </div>
       </div>
 
