@@ -18,17 +18,15 @@
 </template>
 
 <script lang="ts">
-
-import { defineComponent } from "vue";
-export default defineComponent({
-  props: ['src'],
-  name: "videoPlayer",
-  data(props) {
-    return {
-      videoSource: "https://player.vimeo.com/video/63371403",
-      paramsrc: props.src,
-    }
-  }
-});
-
+  import { defineComponent } from "vue";
+  export default defineComponent({
+    props: ["src"],
+    name: "videoPlayer",
+    data(props) {
+      return {
+        videoSource: "https://player.vimeo.com/video/63371403",
+        paramsrc: props.src,
+      };
+    },
+  });
 </script>
