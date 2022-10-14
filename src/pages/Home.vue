@@ -27,21 +27,19 @@
   };
 </script>
 <style type="text/css">
+  .free-consultations-section {
+    padding: 80px 0 50px 0;
+  }
+  .free-consultations-section p {
+    font-size: 25px;
+    font-family: var(--secondary-font);
+  }
 
-.free-consultations-section {
-  padding: 80px 0 50px 0;
-}
-.free-consultations-section p {
-  font-size:25px;
-  font-family: var(--secondary-font);
-}
-
-.free-consultations-section h1 {
-  text-align: center;
-  font-size: 80px;
-  padding-bottom: 40px;
-}
-
+  .free-consultations-section h1 {
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 40px;
+  }
 </style>
 
 <template>

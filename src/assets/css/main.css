@@ -491,9 +491,84 @@ main {
   gap: 40px;
 }
 /* About us page */
+
 .about-us-page {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.about-us-page h1 {
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 80px;
+}
+
+.about-hero {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/Hero-about.png);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  margin-top: -155px;
+  padding-top: 155px;
+}
+.about-hero h1 {
+  font-size: 100px;
+}
+
+.honor-sec {
+  display: flex;
+  gap: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.honor-sec ul li {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+
+.honor-sec .honor-img {
+  max-width: 50%;
+}
+
+.law-area-sec {
+  display: flex;
+  gap: 80px;
+  padding-bottom: 80px;
+}
+
+.law-area-sec .law-img {
+  max-width: 50%;
+}
+
+.law-area-sec ul li {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+
+.hobbies-sec {
+  display: flex;
+  gap: 80px;
+  padding-bottom: 80px;
+}
+
+.hobbies-sec .hobbies-img {
+  max-width: 50%;
+}
+
+.hobbies-sec ul li {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 15px;
 }
 
 /* Contact-form */
@@ -1300,6 +1375,105 @@ iframe {
 
   .about-us-buttons button a {
     font-size: 15px;
+  }
+
+  /* About us page */
+
+  .about-us-page {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .about-hero h1 {
+    font-size: 80px;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .honor-sec {
+    gap: 10px;
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .honor-sec h3 {
+    line-height: 45px;
+    padding-top: 15px;
+  }
+
+  .honor-sec ul {
+    padding-top: 30px;
+  }
+
+  .honor-sec ul li {
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .honor-sec .honor-img {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .honor-sec .honor-img img {
+    max-width: 100%;
+  }
+
+  .law-area-sec {
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .law-area-sec h3 {
+    line-height: 45px;
+    padding-top: 15px;
+  }
+
+  .law-area-sec .law-img {
+    max-width: 100%;
+  }
+
+  .law-area-sec .law-img img {
+    max-width: 100%;
+  }
+
+  .law-area-sec ul {
+    padding-top: 30px;
+  }
+
+  .law-area-sec ul li {
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .hobbies-sec {
+    gap: 10px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hobbies-sec h3 {
+    line-height: 45px;
+    padding-top: 15px;
+  }
+
+  .hobbies-sec .hobbies-img {
+    max-width: 100%;
+  }
+
+  .hobbies-sec .hobbies-img img {
+    max-width: 100%;
+  }
+
+  .hobbies-sec ul {
+    padding-top: 30px;
+  }
+
+  .hobbies-sec ul li {
+    text-align: left;
+    margin-left: 30px;
   }
 
   /* Form/contact us starts here */
