@@ -6,6 +6,7 @@ import PageNotFound from "../components/PageNotFound.vue";
 import Video from "../pages/Video.vue";
 import WorksMan from "../pages/WorkmansCompensation.vue";
 import IndemnityFund from "../pages/IndemnityFund.vue";
+import WrongfulDeath from "../pages/WrongfulDeath.vue";
 
 const routes = [
   {
@@ -38,6 +39,11 @@ const routes = [
     path: "/workmanscompensation",
     name: "Workman",
     component: WorksMan,
+  },
+  {
+    path: "/wrongfuldeath",
+    name: "WrongfulDeath",
+    component: WrongfulDeath,
   },
   {
     path: "/indemnityfund",
