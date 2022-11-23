@@ -1,46 +1,48 @@
 <script lang="ts">
-import ContactForm from "../components/Contact-form.vue";
-import HeroSlider from "../components/Hero-slider.vue";
-import OurFocusSlider from "../components/OurFocusSlider.vue";
-import Testimonials from "../components/TestimonialSlider.vue";
-import Blog from "../components/BlogSlider.vue";
+  import ContactForm from "../components/Contact-form.vue";
+  import HeroSlider from "../components/Hero-slider.vue";
+  import OurFocusSlider from "../components/OurFocusSlider.vue";
+  import Testimonials from "../components/TestimonialSlider.vue";
+  import Blog from "../components/BlogSlider.vue";
+  import MainSlider from "../components/MainSlider.vue";
 
-export default {
-  Name: "The Whiteheadlaw",
-  data() {
-    return {
-      about_contact_button: "#contact",
-      learn_more_comp: "/workmanscompensation",
-      learn_more_death: "/wrongfuldeath",
-      learn_more_special: "/indemnityfund",
-      call_us_now: "tel:2087655291",
-      email_us_now: "mailto:Info@whiteheadlaw.net",
-      read_more: "/about",
-    };
-  },
-  components: {
-    ContactForm,
-    HeroSlider,
-    OurFocusSlider,
-    Testimonials,
-    Blog,
-  },
-};
+  export default {
+    Name: "The Whiteheadlaw",
+    data() {
+      return {
+        about_contact_button: "#contact",
+        learn_more_comp: "/workmanscompensation",
+        learn_more_death: "/wrongfuldeath",
+        learn_more_special: "/indemnityfund",
+        call_us_now: "tel:2087655291",
+        email_us_now: "mailto:Info@whiteheadlaw.net",
+        read_more: "/about",
+      };
+    },
+    components: {
+      ContactForm,
+      HeroSlider,
+      OurFocusSlider,
+      Testimonials,
+      Blog,
+      MainSlider,
+    },
+  };
 </script>
 <style type="text/css">
-.free-consultations-section {
-  padding: 80px 0 50px 0;
-}
-.free-consultations-section p {
-  font-size: 25px;
-  font-family: var(--secondary-font);
-}
+  .free-consultations-section {
+    padding: 80px 0 50px 0;
+  }
+  .free-consultations-section p {
+    font-size: 25px;
+    font-family: var(--secondary-font);
+  }
 
-.free-consultations-section h1 {
-  text-align: center;
-  font-size: 80px;
-  padding-bottom: 40px;
-}
+  .free-consultations-section h1 {
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 40px;
+  }
 </style>
 
 <template>
@@ -76,33 +78,42 @@ export default {
   </div> -->
 
   <div class="Hero-slider-Section">
-    <HeroSlider />
+    <!-- <HeroSlider /> -->
+    <MainSlider />
   </div>
 
   <div class="container">
-    <h1 class="free-consultation">FREE CONSULTATION</h1>
-    <div class="free-con-desc">
-      <p>
-        Our office works on a contingency fee basis which means that we do not
-        get paid unless we are able to win you benefits. Given this we offer a
-        one-hour free consultation for you to ask questions and to allow us to
-        evaluate your claim.
-      </p>
-    </div>
-    <div class="free-con-buttons">
-      <div class="about-us-btn learn-more">
-        <button>&nbsp;</button>
-
-        <button>
-          <a class="about-btn-link" :href="call_us_now">CALL US NOW</a>
-        </button>
+    <div class="free-consult">
+      <h1 class="free-consultation">FREE CONSULTATION</h1>
+      <div class="free-con-desc">
+        <p>
+          Our office works on a contingency fee basis which means that we do not
+          get paid unless we are able to win you benefits. Given this we offer a
+          one-hour free consultation for you to ask questions and to allow us to
+          evaluate your claim.
+        </p>
       </div>
-      <div class="about-us-btn learn-more">
-        <button>&nbsp;</button>
-
-        <button>
-          <a class="about-btn-link" :href="email_us_now">EMAIL US NOW</a>
-        </button>
+      <div class="free-con-buttons">
+        <div class="about-us-btn learn-more">
+          <button>&nbsp;</button>
+          <button>
+            <a
+              class="about-btn-link"
+              :href="call_us_now"
+              >CALL US NOW</a
+            >
+          </button>
+        </div>
+        <div class="about-us-btn learn-more">
+          <button>&nbsp;</button>
+          <button>
+            <a
+              class="about-btn-link"
+              :href="email_us_now"
+              >EMAIL US NOW</a
+            >
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -139,7 +150,11 @@ export default {
             <button>&nbsp;</button>
 
             <button>
-              <a class="about-btn-link" :href="learn_more_comp">LEARN MORE</a>
+              <a
+                class="about-btn-link"
+                :href="learn_more_comp"
+                >LEARN MORE</a
+              >
             </button>
           </div>
         </div>
@@ -176,7 +191,11 @@ export default {
             <button>&nbsp;</button>
 
             <button>
-              <a class="about-btn-link" :href="learn_more_death">LEARN MORE</a>
+              <a
+                class="about-btn-link"
+                :href="learn_more_death"
+                >LEARN MORE</a
+              >
             </button>
           </div>
         </div>
@@ -233,7 +252,10 @@ export default {
 
   <!-- <OurFocusSlider /> -->
   <!-- About-us Page -->
-  <div id="about" class="about-us">
+  <div
+    id="about"
+    class="about-us"
+  >
     <div class="container">
       <div class="about-us-inner-sec">
         <div class="about-us-sec-img">
@@ -278,7 +300,9 @@ export default {
             <div class="about-us-btn">
               <button>&nbsp;</button>
               <button>
-                <a class="about-btn-link" :href="about_contact_button"
+                <a
+                  class="about-btn-link"
+                  :href="about_contact_button"
                   >contact us</a
                 >
               </button>
@@ -287,7 +311,11 @@ export default {
               <button>&nbsp;</button>
 
               <button>
-                <a class="about-btn-link" :href="read_more">READ MORE</a>
+                <a
+                  class="about-btn-link"
+                  :href="read_more"
+                  >READ MORE</a
+                >
               </button>
             </div>
           </div>
@@ -383,7 +411,10 @@ export default {
   </div> -->
   <!-- Form Section -->
   <div class="container">
-    <div id="contact" class="drop-us-form">
+    <div
+      id="contact"
+      class="drop-us-form"
+    >
       <div class="form-title">
         <h2>Drop us a line!</h2>
       </div>
@@ -398,7 +429,10 @@ export default {
             </p>
           </div>
           <div class="address">
-            <img src="../assets/images/map-icon.svg" alt="" />
+            <img
+              src="../assets/images/map-icon.svg"
+              alt=""
+            />
             <div class="address-desc">
               <h4>Address&colon;</h4>
               <p>
@@ -408,7 +442,10 @@ export default {
             </div>
           </div>
           <div class="office-hours">
-            <img src="../assets/images/schedule.svg" alt="" />
+            <img
+              src="../assets/images/schedule.svg"
+              alt=""
+            />
             <div class="office-hours-desc">
               <h4>Office Hours&colon;</h4>
               <p>
@@ -420,7 +457,10 @@ export default {
             </div>
           </div>
           <div class="phone">
-            <img src="../assets/images/phone.svg" alt="" />
+            <img
+              src="../assets/images/phone.svg"
+              alt=""
+            />
             <div class="phone-desc">
               <h4>Phone&colon;</h4>
               <p>
@@ -430,14 +470,20 @@ export default {
             </div>
           </div>
           <div class="fax">
-            <img src="../assets/images/fax.svg" alt="" />
+            <img
+              src="../assets/images/fax.svg"
+              alt=""
+            />
             <div class="fax-desc">
               <h4>Fax&colon;</h4>
               <p>&#40;208&#41; 765&dash;6895</p>
             </div>
           </div>
           <div class="email-add">
-            <img src="../assets/images/email.svg" alt="" />
+            <img
+              src="../assets/images/email.svg"
+              alt=""
+            />
             <div class="email-add-desc">
               <h4>Email Address&colon;</h4>
               <p>info&commat;whiteheadlaw.net</p>
