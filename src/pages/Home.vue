@@ -1,46 +1,46 @@
 <script lang="ts">
-  import ContactForm from "../components/Contact-form.vue";
-  import HeroSlider from "../components/Hero-slider.vue";
-  import OurFocusSlider from "../components/OurFocusSlider.vue";
-  import Testimonials from "../components/TestimonialSlider.vue";
-  import Blog from "../components/BlogSlider.vue";
+import ContactForm from "../components/Contact-form.vue";
+import HeroSlider from "../components/Hero-slider.vue";
+import OurFocusSlider from "../components/OurFocusSlider.vue";
+import Testimonials from "../components/TestimonialSlider.vue";
+import Blog from "../components/BlogSlider.vue";
 
-  export default {
-    Name: "The Whiteheadlaw",
-    data() {
-      return {
-        about_contact_button: "#contact",
-        learn_more_comp: "/workmanscompensation",
-        learn_more_death: "/wrongfuldeath",
-        learn_more_special: "/indemnityfund",
-        call_us_now: "tel:2087655291",
-        email_us_now: "mailto:Info@whiteheadlaw.net",
-        read_more: "/about",
-      };
-    },
-    components: {
-      ContactForm,
-      HeroSlider,
-      OurFocusSlider,
-      Testimonials,
-      Blog,
-    },
-  };
+export default {
+  Name: "The Whiteheadlaw",
+  data() {
+    return {
+      about_contact_button: "#contact",
+      learn_more_comp: "/workmanscompensation",
+      learn_more_death: "/wrongfuldeath",
+      learn_more_special: "/indemnityfund",
+      call_us_now: "tel:2087655291",
+      email_us_now: "mailto:Info@whiteheadlaw.net",
+      read_more: "/about",
+    };
+  },
+  components: {
+    ContactForm,
+    HeroSlider,
+    OurFocusSlider,
+    Testimonials,
+    Blog,
+  },
+};
 </script>
 <style type="text/css">
-  .free-consultations-section {
-    padding: 80px 0 50px 0;
-  }
-  .free-consultations-section p {
-    font-size: 25px;
-    font-family: var(--secondary-font);
-  }
+.free-consultations-section {
+  padding: 80px 0 50px 0;
+}
+.free-consultations-section p {
+  font-size: 25px;
+  font-family: var(--secondary-font);
+}
 
-  .free-consultations-section h1 {
-    text-align: center;
-    font-size: 80px;
-    padding-bottom: 40px;
-  }
+.free-consultations-section h1 {
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 40px;
+}
 </style>
 
 <template>
@@ -113,7 +113,11 @@
       <div class="cards">
         <div class="col foc">
           <div class="col-img">
-            <img src="../assets/images/family-crest.png" alt="" srcset="" />
+            <img
+              src="../assets/images/Idaho-Trial-Association.jpg"
+              alt=""
+              srcset=""
+            />
           </div>
           <div class="col-title col-1">
             <h2>Workman&apos;s Compensation</h2>
@@ -121,7 +125,10 @@
           <div class="col-desc">
             <ul class="our-focus-lists">
               <li>What are your benefits under Idaho Workers Compensation?</li>
-              <li>Are you tired of dealing with the workers' compensation adjuster?</li>
+              <li>
+                Are you tired of dealing with the workers' compensation
+                adjuster?
+              </li>
               <li>Have they denied you medical treatment based upon an IME?</li>
               <li>Have your benefits been stopped?</li>
               <li>Are you getting everything you are entitled to?</li>
@@ -139,7 +146,11 @@
 
         <div class="col foc">
           <div class="col-img">
-            <img src="../assets/images/badges-02.png" alt="" srcset="" />
+            <img
+              src="../assets/images/Personal-Injury-Top.jpg"
+              alt=""
+              srcset=""
+            />
           </div>
           <div class="col-title col-2">
             <h2>Personal Injury / Wrongful Death</h2>
@@ -172,7 +183,11 @@
 
         <div class="col foc">
           <div class="col-img">
-            <img src="../assets/images/justice.png" alt="" srcset="" />
+            <img
+              src="../assets/images/Special-Imdemnity-Top.jpg"
+              alt=""
+              srcset=""
+            />
           </div>
           <div class="col-title col-3">
             <h2>Special Indemnity Fund for the Permanently Disabled</h2>
@@ -189,7 +204,8 @@
               If you have prior work or non-work-related medical injuries and
               now given a new injury are unsure if you will be able to return to
               work, you may have a case for lifetime benefits through the Idaho
-              Special Indemnity Fund if you qualify. Call our office for a free consultation.
+              Special Indemnity Fund if you qualify. Call our office for a free
+              consultation.
             </p>
           </div>
           <!--
