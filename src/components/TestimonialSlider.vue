@@ -56,7 +56,7 @@
           <swiper-slide>
             <div class="col">
               <div class="col-img our-client-review-img">
-                <img src="@/assets/images/John-1.png" alt="" srcset="" />
+                <!-- <img src="@/assets/images/John-1.png" alt="" srcset="" /> -->
               </div>
               <div class="col-title col-1 our-client-review-desc">
                 <h2>Brenda</h2>
@@ -82,7 +82,7 @@
           <swiper-slide>
             <div class="col">
               <div class="col-img our-client-review-img">
-                <img src="@/assets/images/John-2.png" alt="" srcset="" />
+                <!-- <img src="@/assets/images/John-2.png" alt="" srcset="" /> -->
               </div>
               <div class="col-title col-2 our-client-review-desc">
                 <h2>John</h2>
@@ -109,7 +109,7 @@
           <swiper-slide>
             <div class="col">
               <div class="col-img our-client-review-img">
-                <img src="@/assets/images/John-3.png" alt="" srcset="" />
+                <!-- <img src="@/assets/images/John-3.png" alt="" srcset="" /> -->
               </div>
               <div class="col-title col-3 our-client-review-desc">
                 <h2>Farmer Dave</h2>
@@ -133,7 +133,7 @@
           <swiper-slide>
             <div class="col">
               <div class="col-img our-client-review-img">
-                <img src="@/assets/images/John-1.png" alt="" srcset="" />
+                <!-- <img src="@/assets/images/John-1.png" alt="" srcset="" /> -->
               </div>
               <div class="col-title col-1 our-client-review-desc">
                 <h2>Jim</h2>
@@ -156,7 +156,7 @@
           <swiper-slide>
             <div class="col">
               <div class="col-img our-client-review-img">
-                <img src="@/assets/images/John-2.png" alt="" srcset="" />
+                <!-- <img src="@/assets/images/John-2.png" alt="" srcset="" /> -->
               </div>
               <div class="col-title col-2 our-client-review-desc">
                 <h2>Scott</h2>
@@ -187,27 +187,27 @@
 </template>
 
 <script lang="ts">
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from "swiper/vue";
-  // Import Swiper styles
-  import "swiper/css";
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from "swiper/vue";
+// Import Swiper styles
+import "swiper/css";
 
-  import "swiper/css/pagination";
-  import "swiper/css/navigation";
-  // import required modules
-  import { Autoplay, Pagination, Navigation } from "swiper";
-  import { defineComponent } from "vue";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper";
+import { defineComponent } from "vue";
 
-  export default defineComponent({
-    name: " Testimonials",
-    components: {
-      Swiper,
-      SwiperSlide,
-    },
-    setup() {
-      return {
-        modules: [Autoplay, Pagination, Navigation],
-      };
-    },
-  });
+export default defineComponent({
+  name: " Testimonials",
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    return {
+      modules: [Autoplay, Pagination, Navigation],
+    };
+  },
+});
 </script>

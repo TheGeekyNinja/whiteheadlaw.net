@@ -4,6 +4,7 @@
   import OurFocusSlider from "../components/OurFocusSlider.vue";
   import Testimonials from "../components/TestimonialSlider.vue";
   import Blog from "../components/BlogSlider.vue";
+  import MainSlider from "../components/MainSlider.vue";
 
   export default {
     Name: "The Whiteheadlaw",
@@ -24,6 +25,7 @@
       OurFocusSlider,
       Testimonials,
       Blog,
+      MainSlider,
     },
   };
 </script>
@@ -76,33 +78,42 @@
   </div> -->
 
   <div class="Hero-slider-Section">
-    <HeroSlider />
+    <!-- <HeroSlider /> -->
+    <MainSlider />
   </div>
 
   <div class="container">
-    <h1 class="free-consultation">FREE CONSULTATION</h1>
-    <div class="free-con-desc">
-      <p>
-        Our office works on a contingency fee basis which means that we do not
-        get paid unless we are able to win you benefits. Given this we offer a
-        one-hour free consultation for you to ask questions and to allow us to
-        evaluate your claim.
-      </p>
-    </div>
-    <div class="free-con-buttons">
-      <div class="about-us-btn learn-more">
-        <button>&nbsp;</button>
-
-        <button>
-          <a class="about-btn-link" :href="call_us_now">CALL US NOW</a>
-        </button>
+    <div class="free-consult">
+      <h1 class="free-consultation">FREE CONSULTATION</h1>
+      <div class="free-con-desc">
+        <p>
+          Our office works on a contingency fee basis which means that we do not
+          get paid unless we are able to win you benefits. Given this we offer a
+          one-hour free consultation for you to ask questions and to allow us to
+          evaluate your claim.
+        </p>
       </div>
-      <div class="about-us-btn learn-more">
-        <button>&nbsp;</button>
-
-        <button>
-          <a class="about-btn-link" :href="email_us_now">EMAIL US NOW</a>
-        </button>
+      <div class="free-con-buttons">
+        <div class="about-us-btn learn-more">
+          <button>&nbsp;</button>
+          <button>
+            <a
+              class="about-btn-link"
+              :href="call_us_now"
+              >CALL US NOW</a
+            >
+          </button>
+        </div>
+        <div class="about-us-btn learn-more">
+          <button>&nbsp;</button>
+          <button>
+            <a
+              class="about-btn-link"
+              :href="email_us_now"
+              >EMAIL US NOW</a
+            >
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -113,7 +124,11 @@
       <div class="cards">
         <div class="col foc">
           <div class="col-img">
-            <img src="../assets/images/family-crest.png" alt="" srcset="" />
+            <img
+              src="../assets/images/Idaho-Trial-Association.jpg"
+              alt=""
+              srcset=""
+            />
           </div>
           <div class="col-title col-1">
             <h2>Workman&apos;s Compensation</h2>
@@ -121,7 +136,10 @@
           <div class="col-desc">
             <ul class="our-focus-lists">
               <li>What are your benefits under Idaho Workers Compensation?</li>
-              <li>Are you tired of dealing with the workers' compensation adjuster?</li>
+              <li>
+                Are you tired of dealing with the workers' compensation
+                adjuster?
+              </li>
               <li>Have they denied you medical treatment based upon an IME?</li>
               <li>Have your benefits been stopped?</li>
               <li>Are you getting everything you are entitled to?</li>
@@ -132,14 +150,22 @@
             <button>&nbsp;</button>
 
             <button>
-              <a class="about-btn-link" :href="learn_more_comp">LEARN MORE</a>
+              <a
+                class="about-btn-link"
+                :href="learn_more_comp"
+                >LEARN MORE</a
+              >
             </button>
           </div>
         </div>
 
         <div class="col foc">
           <div class="col-img">
-            <img src="../assets/images/badges-02.png" alt="" srcset="" />
+            <img
+              src="../assets/images/Personal-Injury-Top.jpg"
+              alt=""
+              srcset=""
+            />
           </div>
           <div class="col-title col-2">
             <h2>Personal Injury / Wrongful Death</h2>
@@ -165,14 +191,22 @@
             <button>&nbsp;</button>
 
             <button>
-              <a class="about-btn-link" :href="learn_more_death">LEARN MORE</a>
+              <a
+                class="about-btn-link"
+                :href="learn_more_death"
+                >LEARN MORE</a
+              >
             </button>
           </div>
         </div>
 
         <div class="col foc">
           <div class="col-img">
-            <img src="../assets/images/justice.png" alt="" srcset="" />
+            <img
+              src="../assets/images/Special-Imdemnity-Top.jpg"
+              alt=""
+              srcset=""
+            />
           </div>
           <div class="col-title col-3">
             <h2>Special Indemnity Fund for the Permanently Disabled</h2>
@@ -189,7 +223,8 @@
               If you have prior work or non-work-related medical injuries and
               now given a new injury are unsure if you will be able to return to
               work, you may have a case for lifetime benefits through the Idaho
-              Special Indemnity Fund if you qualify. Call our office for a free consultation.
+              Special Indemnity Fund if you qualify. Call our office for a free
+              consultation.
             </p>
           </div>
           <!--
@@ -217,7 +252,10 @@
 
   <!-- <OurFocusSlider /> -->
   <!-- About-us Page -->
-  <div id="about" class="about-us">
+  <div
+    id="about"
+    class="about-us"
+  >
     <div class="container">
       <div class="about-us-inner-sec">
         <div class="about-us-sec-img">
@@ -262,7 +300,9 @@
             <div class="about-us-btn">
               <button>&nbsp;</button>
               <button>
-                <a class="about-btn-link" :href="about_contact_button"
+                <a
+                  class="about-btn-link"
+                  :href="about_contact_button"
                   >contact us</a
                 >
               </button>
@@ -271,7 +311,11 @@
               <button>&nbsp;</button>
 
               <button>
-                <a class="about-btn-link" :href="read_more">READ MORE</a>
+                <a
+                  class="about-btn-link"
+                  :href="read_more"
+                  >READ MORE</a
+                >
               </button>
             </div>
           </div>
@@ -367,7 +411,10 @@
   </div> -->
   <!-- Form Section -->
   <div class="container">
-    <div id="contact" class="drop-us-form">
+    <div
+      id="contact"
+      class="drop-us-form"
+    >
       <div class="form-title">
         <h2>Drop us a line!</h2>
       </div>
@@ -382,7 +429,10 @@
             </p>
           </div>
           <div class="address">
-            <img src="../assets/images/map-icon.svg" alt="" />
+            <img
+              src="../assets/images/map-icon.svg"
+              alt=""
+            />
             <div class="address-desc">
               <h4>Address&colon;</h4>
               <p>
@@ -392,7 +442,10 @@
             </div>
           </div>
           <div class="office-hours">
-            <img src="../assets/images/schedule.svg" alt="" />
+            <img
+              src="../assets/images/schedule.svg"
+              alt=""
+            />
             <div class="office-hours-desc">
               <h4>Office Hours&colon;</h4>
               <p>
@@ -404,7 +457,10 @@
             </div>
           </div>
           <div class="phone">
-            <img src="../assets/images/phone.svg" alt="" />
+            <img
+              src="../assets/images/phone.svg"
+              alt=""
+            />
             <div class="phone-desc">
               <h4>Phone&colon;</h4>
               <p>
@@ -414,14 +470,20 @@
             </div>
           </div>
           <div class="fax">
-            <img src="../assets/images/fax.svg" alt="" />
+            <img
+              src="../assets/images/fax.svg"
+              alt=""
+            />
             <div class="fax-desc">
               <h4>Fax&colon;</h4>
               <p>&#40;208&#41; 765&dash;6895</p>
             </div>
           </div>
           <div class="email-add">
-            <img src="../assets/images/email.svg" alt="" />
+            <img
+              src="../assets/images/email.svg"
+              alt=""
+            />
             <div class="email-add-desc">
               <h4>Email Address&colon;</h4>
               <p>info&commat;whiteheadlaw.net</p>

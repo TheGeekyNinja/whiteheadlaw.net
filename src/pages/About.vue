@@ -25,12 +25,20 @@
           </ul>
         </div>
         <div class="honor-img">
-          <img src="../assets/images/Honor-sec.png" alt="" />
+          <img
+            class="about-img img-one"
+            src="../assets/images/Certificate-1.jpg"
+            alt=""
+          />
         </div>
       </div>
       <div class="law-area-sec">
         <div class="law-img">
-          <img src="../assets/images/law-sec.png" alt="" />
+          <img
+            class="about-img"
+            src="../assets/images/Certification-2.jpg"
+            alt=""
+          />
         </div>
         <div class="law-text">
           <h3>Focused Areas of Law</h3>
