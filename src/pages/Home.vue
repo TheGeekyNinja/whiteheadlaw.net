@@ -184,7 +184,7 @@
             </p>
             <p>
               Mr. Whitehead has been licensed in Idaho since 1982,
-              as well as Montana since 2001
+              as well as Montana since 2001.
             </p>
           </div>
           <div class="about-us-btn learn-more">
