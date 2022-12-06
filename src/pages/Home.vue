@@ -183,9 +183,8 @@
               representation. This means no fee unless a recovery is received.
             </p>
             <p>
-              Mr. Whitehead is licensed in Idaho and has been since 1982,
-              Montana since 2001 and was a member of the Washington Bar until
-              recently.
+              Mr. Whitehead has been licensed in Idaho since 1982,
+              as well as Montana since 2001
             </p>
           </div>
           <div class="about-us-btn learn-more">
