@@ -88,7 +88,7 @@
       <div class="free-con-desc">
         <p>
           Our office works on a contingency fee basis which means that we do not
-          get paid unless we are able to win you benefits. Given this we offer a
+          get paid unless we are able to win you benefits. We offer a
           one-hour free consultation for you to ask questions and to allow us to
           evaluate your claim.
         </p>
@@ -143,6 +143,7 @@
               <li>Have they denied you medical treatment based upon an IME?</li>
               <li>Have your benefits been stopped?</li>
               <li>Are you getting everything you are entitled to?</li>
+              <li>Are you aware that lifetime benefits may be available to you?</li>
             </ul>
           </div>
           <h4>Free consultation to learn more</h4>
