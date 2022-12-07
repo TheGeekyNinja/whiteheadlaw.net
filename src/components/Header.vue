@@ -1,5 +1,8 @@
 <template>
-  <div class="navigation" :class="{ 'scrolled-nav': scrollNav }">
+  <div
+    class="navigation"
+    :class="{ 'scrolled-nav': scrollNav }"
+  >
     <div class="container">
       <nav class="top-nav">
         <div class="logo">
@@ -11,7 +14,10 @@
               srcset=""
           /></router-link>
         </div>
-        <ul v-show="!mobile" class="main-nav">
+        <ul
+          v-show="!mobile"
+          class="main-nav"
+        >
           <li>
             <!-- <router-link :to="{}">About Us</router-link> -->
             <a href="/about">About Us</a>
@@ -37,18 +43,33 @@
           ></i>
         </div>
         <transition name="mobile-nav">
-          <ul v-show="mobileNav" class="dropDown-nav">
+          <ul
+            v-show="mobileNav"
+            class="dropDown-nav"
+          >
             <li>
-              <router-link :to="{}">About Us</router-link>
+              <router-link
+                @click="toToggleMobileNav"
+                :to="{ name: 'About' }"
+                >About Us</router-link
+              >
             </li>
             <!-- <li>
               <router-link :to="{}">Videos</router-link>
             </li> -->
             <li>
-              <router-link :to="{}">Testimonials</router-link>
+              <a
+                @click="toToggleMobileNav"
+                href="/#testimonial"
+                >Testimonials</a
+              >
             </li>
             <li>
-              <router-link :to="{}">Contact Us</router-link>
+              <a
+                @click="toToggleMobileNav"
+                href="/#contact"
+                >Contact Us</a
+              >
             </li>
           </ul>
         </transition>

@@ -1,6 +1,10 @@
 <template>
   <div class="contact-left-side">
-    <Form ref="form" @submit="onSubmit" class="contact-form">
+    <Form
+      ref="form"
+      @submit="onSubmit"
+      class="contact-form"
+    >
       <title class="form-title">Drop us a line!</title>
       <Field
         name="firstName"
@@ -41,7 +45,11 @@
       />
       <ErrorMessage name="message" />
       <div class="form-btn">
-        <input class="" type="button" value="&nbsp;" />
+        <input
+          class=""
+          type="button"
+          value="&nbsp;"
+        />
         <button>Make A Request</button>
       </div>
     </Form>
@@ -49,37 +57,37 @@
 </template>
 
 <script lang="ts">
-import { Form, Field, ErrorMessage } from "vee-validate";
-import { defineComponent } from "vue";
+  import { Form, Field, ErrorMessage } from "vee-validate";
+  import { defineComponent } from "vue";
 
-export default defineComponent({
-  components: {
-    Form,
-    Field,
-    ErrorMessage,
-  },
-  methods: {
-    onSubmit(values: any) {
-      console.log(JSON.stringify(values, null, 2)); //Send the data to the database/ API
+  export default defineComponent({
+    components: {
+      Form,
+      Field,
+      ErrorMessage,
+    },
+    methods: {
+      onSubmit(values: any) {
+        console.log(JSON.stringify(values, null, 2)); //Send the data to the database/ API
 
-      (this.$refs.form as any).resetForm();
+        (this.$refs.form as any).resetForm();
+      },
+      isRequired(value: any) {
+        if (!value) {
+          return "The field should not be empty";
+        }
+        return true;
+      },
+      validateEmail(value: any) {
+        if (!value) {
+          return "This field should not be empty";
+        }
+        const regex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+        if (!regex.test(value)) {
+          return "This field must contain a valid email";
+        }
+        return true;
+      },
     },
-    isRequired(value: any) {
-      if (!value) {
-        return "The field should not be empty";
-      }
-      return true;
-    },
-    validateEmail(value: any) {
-      if (!value) {
-        return "This field should not be empty";
-      }
-      const regex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
-      if (!regex.test(value)) {
-        return "This field must contain a valid email";
-      }
-      return true;
-    },
-  },
-});
+  });
 </script>
