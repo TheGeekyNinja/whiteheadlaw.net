@@ -625,6 +625,14 @@ h4 {
 .contact-form input,
 textarea {
   padding: 20px 30px;
+  outline: none;
+  border: solid 1px #000000;
+}
+
+.contact-form input:focus,
+textarea:focus {
+  outline: none;
+  border: solid 1px var(--btn-color);
 }
 .contact-form .form-btn {
   text-align: center;

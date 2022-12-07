@@ -1,19 +1,19 @@
 <template>
   <div class="contact-left-side">
-    <Form
+    <form
       ref="form"
       @submit="onSubmit"
       class="contact-form"
     >
       <title class="form-title">Drop us a line!</title>
-      <Field
+      <input
         name="firstName"
         type="text"
         placeholder="First Name"
         :rules="isRequired"
       />
       <ErrorMessage name="firstName" />
-      <Field
+      <input
         name="lastName"
         type="text"
         placeholder="Last Name"
@@ -52,7 +52,7 @@
         />
         <button>Make A Request</button>
       </div>
-    </Form>
+    </form>
   </div>
 </template>
 
