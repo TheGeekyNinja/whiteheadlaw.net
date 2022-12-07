@@ -5,6 +5,7 @@
   import Testimonials from "../components/TestimonialSlider.vue";
   import Blog from "../components/BlogSlider.vue";
   import MainSlider from "../components/MainSlider.vue";
+  import ContactUs from "../components/ContactUs.vue";
 
   export default {
     Name: "The Whiteheadlaw",
@@ -26,6 +27,7 @@
       Testimonials,
       Blog,
       MainSlider,
+      ContactUs,
     },
   };
 </script>
@@ -81,16 +83,15 @@
     <!-- <HeroSlider /> -->
     <MainSlider />
   </div>
-
   <div class="container">
     <div class="free-consult">
       <h1 class="free-consultation">FREE CONSULTATION</h1>
       <div class="free-con-desc">
         <p>
           Our office works on a contingency fee basis which means that we do not
-          get paid unless we are able to win you benefits. We offer a
-          one-hour free consultation for you to ask questions and to allow us to
-          evaluate your claim.
+          get paid unless we are able to win you benefits. We offer a one-hour
+          free consultation for you to ask questions and to allow us to evaluate
+          your claim.
         </p>
       </div>
       <div class="free-con-buttons">
@@ -143,7 +144,9 @@
               <li>Have they denied you medical treatment based upon an IME?</li>
               <li>Have your benefits been stopped?</li>
               <li>Are you getting everything you are entitled to?</li>
-              <li>Are you aware that lifetime benefits may be available to you?</li>
+              <li>
+                Are you aware that lifetime benefits may be available to you?
+              </li>
             </ul>
           </div>
           <h4>Free consultation to learn more</h4>
@@ -183,8 +186,8 @@
               representation. This means no fee unless a recovery is received.
             </p>
             <p>
-              Mr. Whitehead has been licensed in Idaho since 1982,
-              as well as Montana since 2001.
+              Mr. Whitehead has been licensed in Idaho since 1982, as well as
+              Montana since 2001.
             </p>
           </div>
           <div class="about-us-btn learn-more">
@@ -419,7 +422,8 @@
         <h2>Drop us a line!</h2>
       </div>
       <div class="contact-inner-column">
-        <ContactForm />
+        <!-- <ContactForm /> -->
+        <ContactUs />
         <div class="contact-right-side">
           <div class="form-title">
             <h3>Contact information</h3>

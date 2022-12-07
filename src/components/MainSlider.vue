@@ -23,7 +23,15 @@
         </SwiperSlide>
         <main class="inner-container">
           <div class="inner-section">
-            <div class="left-col"></div>
+            <div class="left-col">
+              <div class="left-side-text">
+                <ul>
+                  <li>Idaho Workers Compensation Law</li>
+                  <li>Personal Injury Auto Accident</li>
+                  <li>Wrongful Death</li>
+                </ul>
+              </div>
+            </div>
             <div class="right-col">
               <div class="art-board">
                 <img
@@ -146,10 +154,78 @@
     background: var(--white);
   }
 
+  main {
+    padding: 50px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .left-side-text {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 80px;
+    padding: 20px 0 30px 80px;
+    border-radius: 10px;
+  }
+
+  .left-side-text ul li {
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 600;
+    padding-top: 20px;
+  }
+
+  .inner-section {
+    padding-top: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+  }
+
+  @media only screen and (max-width: 1366px) {
+    .left-side-text ul li {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
   @media only screen and (max-width: 767px) {
     .main-home-slider .swiper-button-prev,
     .main-home-slider .swiper-button-next {
       display: none;
+    }
+    .inner-section {
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .left-side-text {
+      margin: 0;
+    }
+    .inner-container .inner-section .left-col {
+      width: 100%;
+    }
+
+    .left-side-text ul li {
+      font-size: 20px;
+      line-height: 25px;
+      padding-top: 8px;
+    }
+    .left-side-text {
+      margin: 0 30px;
+      padding: 20px 0 30px 50px;
+    }
+    .home-slider-inner {
+      max-height: 1000px;
+    }
+  }
+
+  @media only screen and (min-width: 1600px) {
+    .inner-section {
+      padding-top: 200px;
     }
   }
 </style>
