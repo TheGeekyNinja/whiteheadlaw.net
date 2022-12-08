@@ -214,7 +214,7 @@ h4 {
 .free-consultation {
   text-align: center;
   font-size: 80px;
-  padding-bottom: 10px;
+  line-height: 80px;
   padding-top: 50px;
 }
 
@@ -232,25 +232,26 @@ h4 {
   font-family: var(--secondary-font);
   font-size: 18px;
   line-height: 25px;
+  margin-bottom: -10px;
 }
 
 .free-con-buttons {
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-bottom: 70px;
 }
 
 /* Our focus Section */
 
 .our-focus-section {
-  padding: 80px 0 50px 0;
+  padding: 70px 0 50px 0;
 }
 
 .our-focus-section h1 {
   text-align: center;
   font-size: 80px;
-  padding-bottom: 40px;
+  line-height: 80px;
+  padding-bottom: 20px;
 }
 
 .our-focus-section .cards {
@@ -440,9 +441,8 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  padding: 100px 0;
+  padding: 60px 0;
   overflow: hidden;
-  margin-top: 100px;
 }
 
 .about-us-inner-sec {
@@ -605,12 +605,12 @@ h4 {
 /* Contact-form */
 
 .drop-us-form {
-  padding: 100px 0;
+  padding: 80px 0 50px 0;
 }
 
 .drop-us-form .form-title h2 {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   font-family: var(--fourth-font);
   font-weight: 400;
   text-transform: uppercase;
@@ -624,9 +624,11 @@ h4 {
 
 .contact-form input,
 textarea {
-  padding: 20px 30px;
+  padding: 15px 20px;
   outline: none;
   border: solid 1px #000000;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .contact-form input:focus,
@@ -654,7 +656,7 @@ textarea:focus {
 }
 
 .form-btn button {
-  padding: 20px 25px;
+  padding: 13px 20px;
 }
 
 .contact-form .form-btn input:nth-child(1) {
@@ -672,6 +674,7 @@ textarea:focus {
 span[role="alert"] {
   color: var(--btn-color);
   margin-top: -30px;
+  margin-bottom: -20px;
 }
 .contact-inner-column {
   display: flex;
@@ -882,11 +885,14 @@ span[role="alert"] {
 }
 
 /* Our Client Review Section */
+#testimonial {
+  padding-top: 20px;
+}
 .our-client-review {
   text-align: center;
 }
 .our-client-review .cards {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .our-client-review h1 {

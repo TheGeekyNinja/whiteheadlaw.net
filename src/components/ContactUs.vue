@@ -50,7 +50,7 @@
       <input
         @blur="v$.contactNumber.$touch"
         v-model="contactNumber"
-        type="text"
+        type="phone"
         name="contactNumber"
         placeholder="Contact Number"
       />
@@ -66,7 +66,7 @@
         name="message"
         placeholder="Message"
         cols="30"
-        rows="8"
+        rows="7"
       ></textarea>
 
       <span
@@ -74,6 +74,7 @@
         v-if="v$.message.$error"
         >Message is Required</span
       >
+      <span v-if="messageSending">Message received. Thank you!</span>
       <div class="form-btn">
         <input
           class=""
@@ -103,6 +104,7 @@
         email: "",
         contactNumber: "",
         message: "",
+        messageSending: false,
       };
     },
     validations() {
@@ -125,7 +127,7 @@
               LastName: this.lastName,
               Email: this.email,
               ContactNumber: this.contactNumber,
-              _subject: `${this.firstName} | Friendly Message from Whiteheadlaw Page`,
+              _subject: `${this.firstName} | New  Message from Whiteheadlaw Page`,
               message: this.message,
             })
             .then((response) => {
@@ -140,6 +142,7 @@
                 console.log(error.response.data);
               }
             });
+          this.messageSending = true;
           (this.$refs.form as any).reset();
         } else {
           console.log("Error");
