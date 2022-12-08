@@ -165,15 +165,16 @@
   .left-side-text {
     background-color: rgba(0, 0, 0, 0.3);
     margin-left: 80px;
-    padding: 20px 0 30px 80px;
+    padding: 20px 50px 30px 70px;
     border-radius: 10px;
   }
 
   .left-side-text ul li {
     color: var(--white);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-family: var(--primary-font);
+    font-size: 55px;
     line-height: 55px;
+    letter-spacing: 1.5px;
     font-weight: 600;
     padding-top: 20px;
   }
@@ -183,13 +184,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 100px;
+    gap: 20px;
   }
 
   @media only screen and (max-width: 1366px) {
     .left-side-text ul li {
-      font-size: 40px;
+      font-size: 50px;
       line-height: 45px;
+      letter-spacing: 1.5px;
     }
   }
   @media only screen and (max-width: 767px) {

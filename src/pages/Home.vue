@@ -1,5 +1,4 @@
 <script lang="ts">
-  import ContactForm from "../components/Contact-form.vue";
   import HeroSlider from "../components/Hero-slider.vue";
   import OurFocusSlider from "../components/OurFocusSlider.vue";
   import Testimonials from "../components/TestimonialSlider.vue";
@@ -21,7 +20,6 @@
       };
     },
     components: {
-      ContactForm,
       HeroSlider,
       OurFocusSlider,
       Testimonials,
@@ -422,7 +420,6 @@
         <h2>Drop us a line!</h2>
       </div>
       <div class="contact-inner-column">
-        <!-- <ContactForm /> -->
         <ContactUs />
         <div class="contact-right-side">
           <div class="form-title">
