@@ -145,6 +145,7 @@
               <li>
                 Are you aware that lifetime benefits may be available to you?
               </li>
+              <li>Let the most skilled North Idaho team get you a prompt and fair result</li>
             </ul>
           </div>
           <h4>Free consultation to learn more</h4>
@@ -221,11 +222,14 @@
               combined with their pre-existing injuries render then totally and
               permanently disabled and
               <strong> <u> unable to return to work in any fashion.</u></strong>
-              If you have prior work or non-work-related medical injuries and
-              now given a new injury are unsure if you will be able to return to
-              work, you may have a case for lifetime benefits through the Idaho
-              Special Indemnity Fund if you qualify. Call our office for a free
-              consultation.
+
+              If you have pre-existing condition(s) and then sustain a work related
+              injury, you may be entitled to life-time benefits. The Idaho Special
+              Indemnity Fund was established for those people whose combined medical
+              conditions render them disabled and unable to return to work after the
+              last accident.
+              Let the legal experts at Whitehead Law help you get what you are entitled to.
+              Call our office for a free consultation.
             </p>
           </div>
           <!--
