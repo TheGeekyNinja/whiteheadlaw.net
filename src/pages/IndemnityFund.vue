@@ -27,7 +27,7 @@
           Have you lost a family member due to the negligence of someone else.
           Do you need help in evaluating your case and your rights. The video
           will help explain the process as described by attorney Richard
-          Whitehead who has 41 years of experience practicing injury law.
+          Whitehead who has 42 years of experience practicing injury law.
         </p>
       </div>
     </div>

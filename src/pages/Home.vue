@@ -283,7 +283,7 @@
               serious on the job injuries and other victims of negligence.
             </p>
             <p>
-              Attorney Richard Whitehead has over 41 years of experience in the
+              Attorney Richard Whitehead has over 42 years of experience in the
               field of injury law and has achieved certification as a Lifetime
               Idaho Workers' Compensation Specialist through the Idaho Trial
               Lawyers Association.

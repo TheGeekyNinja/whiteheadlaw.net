@@ -4,7 +4,7 @@
       <h1>Our AVVO Clients Reviews</h1>
       <a
         class="review-link"
-        href=" https://www.avvo.com/attorneys/83816-id-richard-whitehead-21563.html#client_reviews"
+        href="https://www.avvo.com/attorneys/83816-id-richard-whitehead-21563.html#reviews"
         target="_blank"
         >Learn More</a
       >

@@ -4,6 +4,35 @@
   </div>
   <div class="container">
     <div class="about-us-page">
+      <div class="law-area-sec">
+        <div class="law-img">
+          <img
+            class="about-img"
+            src="../assets/images/Certification-2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="law-text">
+	  <h2>Richard Whitehead</h2>
+          <h3>Focused Areas of Law</h3>
+          <ul>
+            <li>
+              42 years' experience working against insurance companies &amp;
+              Corporate America
+            </li>
+            <li>No ethics issues or violations in 42 years</li>
+            <li>Top reputation among clients and defense attorneys</li>
+            <li>
+              Practice limited to Contingency Fees cases on fast-track
+              mediation, arbitration and jury trials
+            </li>
+            <li>
+              Specializing in Semi- 18-wheeler cases, motorcycle and car
+              accidents
+            </li>
+          </ul>
+        </div>
+      </div>
       <div class="honor-sec">
         <div class="honor-text">
           <h3>Honors, Licensing and Recognitions</h3>
@@ -34,32 +63,11 @@
       </div>
       <div class="law-area-sec">
         <div class="law-img">
-          <img
-            class="about-img"
-            src="../assets/images/Certification-2.jpg"
-            alt=""
-          />
+          <img 
+	    class="about-img"
+            src="../assets/images/hobbies-sec.png"
+	    alt="" />
         </div>
-        <div class="law-text">
-          <h3>Focused Areas of Law</h3>
-          <ul>
-            <li>
-              42 years' experience working against insurance companies &
-              Corporate America No ethics issues or violations in 42 years
-            </li>
-            <li>Top reputation among clients and defense attorneys</li>
-            <li>
-              Practice limited to Contingency Fees cases on fast-track
-              mediation, arbitration and jury trials
-            </li>
-            <li>
-              Specializing in Semi- 18-wheeler cases, motor cycle and car
-              accidents
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="hobbies-sec">
         <div class="hobbies-text">
           <h3>Other Hobbies and Achievements</h3>
           <ul>
@@ -81,14 +89,37 @@
             <li>Scuba Diver at Cook Islands, Mexico, Fiji and Hawaii</li>
             <li>
               Big game hunter, Idaho, Oregon, Alaska, Argentina, New Zealand,
-              Greenland & South Africa
+              Greenland &amp; South Africa
             </li>
             <li>Wing shooter, hunter, and dog trainer</li>
-            <li>Married with 3 daughters and one grandson</li>
+            <li>Married with 3 daughters and two grandsons</li>
           </ul>
         </div>
-        <div class="hobbies-img">
-          <img src="../assets/images/hobbies-sec.png" alt="" />
+      </div>
+      <div class="hobbies-sec">
+        <div class="hobbies-text">
+          <h3>Christian Sturgill, Paralegal</h3>
+          <ul>
+            <li>
+		Extremely knowledgeable about the laws and processes of Workers’ Compensation for the State of Idaho.
+            </li>
+            <li>
+		12 years as a paralegal and office manager for Whitehead Law office as a Certified Idaho Workers' Compensation Specialist at the Advanced level through the Idaho Industrial Commission
+            </li>
+            <li>
+		Associates of Applied Science with a major in Paralegal from North Idaho College
+            </li>
+            <li>
+		Technical Certificate in the program of Office Technology from North Idaho College
+            </li>
+            <li>
+		Experienced in Litigation for both personal injury and Idaho Workers' compensation litigation
+            </li>
+            <li>
+		Continuing education knowledge in the fields of subrogation, personal injury and workers compensation.
+            </li>
+		Mother of three wonderful children, daughter Elektra Sturgill, who is attending college at Minot State University as an athlete for the track team, son Skyler Sturgill age 13 who loves running 5ks and playing soccer, son Tucker Sturgill, age 6 who loves playing basketball, running and golf.  I enjoy coaching soccer, running with my son, paddle boarding, hiking, camping and almost any outdoor activities.
+          </ul>
         </div>
       </div>
     </div>
