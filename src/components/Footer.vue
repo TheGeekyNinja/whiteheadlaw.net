@@ -29,6 +29,7 @@
               &copy; Copyright 2004-2022 <a href="/">whiteheadlaw</a> - All
               Rights Reserved
             </div>
+<!--
             <div class="icon">
               <a :href="facebook_url" target="_blank">
                 <img
@@ -52,6 +53,7 @@
                 />
               </a>
             </div>
+-->
           </div>
         </div>
       </div>
