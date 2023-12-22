@@ -8,7 +8,7 @@
         <div class="law-img">
           <img
             class="about-img"
-            src="../assets/images/Certification-2.jpg"
+            src="../assets/images/Richard-Whitehead.jpg"
             alt=""
           />
         </div>
@@ -54,11 +54,13 @@
           </ul>
         </div>
         <div class="honor-img">
+	  <a href="https://www.itla.org/?pg=CertWorkersComp" target="_blank">
           <img
             class="about-img img-one"
-            src="../assets/images/Certificate-1.jpg"
+            src="../assets/images/itla.png"
             alt=""
           />
+	  </a>
         </div>
       </div>
       <div class="law-area-sec">
@@ -98,7 +100,7 @@
       </div>
       <div class="hobbies-sec">
         <div class="hobbies-text">
-          <h3>Christian Sturgill, Paralegal</h3>
+          <h3>Christina Sturgill, Paralegal</h3>
           <ul>
             <li>
 		Extremely knowledgeable about the laws and processes of Workers’ Compensation for the State of Idaho.
@@ -118,8 +120,15 @@
             <li>
 		Continuing education knowledge in the fields of subrogation, personal injury and workers compensation.
             </li>
-		Mother of three wonderful children, daughter Elektra Sturgill, who is attending college at Minot State University as an athlete for the track team, son Skyler Sturgill age 13 who loves running 5ks and playing soccer, son Tucker Sturgill, age 6 who loves playing basketball, running and golf.  I enjoy coaching soccer, running with my son, paddle boarding, hiking, camping and almost any outdoor activities.
+		Christina is the mother of three children, enjoys coaching soccer, running with her son, paddle boarding, hiking, camping and almost any outdoor activities.
           </ul>
+        </div>
+        <div class="honor-img">
+          <img
+            class="about-img img-one"
+            src="../assets/images/Certificate-1.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
