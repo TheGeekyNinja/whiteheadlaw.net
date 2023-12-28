@@ -2,19 +2,19 @@
   <div class="contact-left-side">
     <form
       ref="form"
-      @submit="onSubmit"
+      action="https://whiteheadcontact.gninja.app" method="POST"
       class="contact-form"
     >
       <title class="form-title">Drop us a line!</title>
       <input
-        name="firstName"
+        name="fname"
         type="text"
         placeholder="First Name"
         :rules="isRequired"
       />
       <ErrorMessage name="firstName" />
       <input
-        name="lastName"
+        name="lname"
         type="text"
         placeholder="Last Name"
         :rules="isRequired"
@@ -28,7 +28,7 @@
       />
       <ErrorMessage name="email" />
       <Field
-        name="telNumber"
+        name="phone"
         type="tel"
         placeholder="Contact Number"
         :rules="isRequired"

@@ -7,6 +7,7 @@ import Video from "../pages/Video.vue";
 import WorksMan from "../pages/WorkmansCompensation.vue";
 import IndemnityFund from "../pages/IndemnityFund.vue";
 import WrongfulDeath from "../pages/WrongfulDeath.vue";
+import ContactConfirm from "../pages/ContactConfirm.vue";
 
 const routes = [
   {
@@ -44,6 +45,11 @@ const routes = [
     path: "/wrongfuldeath",
     name: "WrongfulDeath",
     component: WrongfulDeath,
+  },
+  {
+    path: "/contactconfirm",
+    name: "ContactConfirm",
+    component: ContactConfirm,
   },
   {
     path: "/indemnityfund",
