@@ -1,9 +1,10 @@
 <template>
   <div class="contact-left-side">
+      <!-- @submit.prevent="sendEmail" -->
     <form
       ref="form"
-      @submit.prevent="sendEmail"
       method="POST"
+      action="https://whiteheadcontact.gninja.app"
       class="contact-form"
     >
       <input
@@ -117,17 +118,18 @@
       };
     },
     methods: {
+      // Disabled entire form due to CORS shenanigans. Just POST and redirect instead.
       async sendEmail() {
         const isFormCorrect = await this.v$.$validate();
 
         if (isFormCorrect) {
           axios
-            .post("https://formspree.io/f/xoqbgleq", {
-              FirstName: this.firstName,
-              LastName: this.lastName,
-              Email: this.email,
-              ContactNumber: this.contactNumber,
-              _subject: `${this.firstName} | New  Message from Whiteheadlaw Page`,
+            //.post("/contact_submit/", {
+            .post("https://whiteheadcontact.gninja.app/", {
+              firstName: this.firstName,
+              lastName: this.lastName,
+              email: this.email,
+              contactNumber: this.contactNumber,
               message: this.message,
             })
             .then((response) => {
